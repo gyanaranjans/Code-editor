@@ -1,0 +1,3431 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-28 09:29-0400\n"
+"PO-Revision-Date: 2023-01-06 18:19+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 3.2.2\n"
+
+msgid "The file {filename} does not exist."
+msgstr "Tiedostoa {filename} ei ole olemassa."
+
+msgid "The available languages are:"
+msgstr "Käytettävissä olevat kielet ovat:"
+
+msgid "{include}: Unrecognized value."
+msgstr "{include}: Tunnistamaton arvo."
+
+msgid "The allowed values are:"
+msgstr "Sallitut arvot ovat:"
+
+msgid "Warning issued on line `{line}` of code block {filename}."
+msgstr "Varoitus annettu koodilohkon {filename} rivillä `{line}`."
+
+msgid "Warning issued on line `{line}` of file '{filename}'."
+msgstr "Varoitus annettiin rivillä `{line}` tiedostossa '{filename}'."
+
+msgid ""
+"The source is unavailable.\n"
+"If you used `exec`, consider using `friendly_exec` instead."
+msgstr "Lähde ei ole käytettävissä. Jos käytit `exec`, harkitse sen sijaan `friendly_exec`:n käyttöä."
+
+msgid "I have no suggestion to offer."
+msgstr "Minulla ei ole mitään ehdotuksia."
+
+msgid "I have no suggestion to offer; try `why()`."
+msgstr "Minulla ei ole ehdottaa mitään; kokeile `why()`."
+
+msgid ""
+"Are you using a regular Python console instead of a Friendly console?\n"
+"If so, to continue, try: `start_console(local_vars=locals())`.\n"
+"You will need to import `start_console` if you have not already done so.\n"
+msgstr "Käytätkö tavallista Python-konsolia etkä Friendly-konsolia? Jos näin on, jatka yrittämällä: Sinun on tuotava `start_console`, jos et ole vielä tehnyt sitä.\n"
+
+msgid "Nothing to show: no exception recorded."
+msgstr "Ei mitään näytettävää: virhettä ei ole kirjattu."
+
+msgid "Invalid index value."
+msgstr "Virheellinen indeksiarvo."
+
+msgid ""
+"An exception occurred before friendly-traceback was imported.\n"
+"Some information is available."
+msgstr "Virhe tapahtui ennen kuin friendly-traceback tuotiin. Joitakin tietoja on saatavilla."
+
+msgid "Friendly-traceback is already disabled."
+msgstr "Friendly-traceback on jo poistettu käytöstä."
+
+msgid "Friendly-traceback is already enabled."
+msgstr "Friendly-traceback on jo käytössä."
+
+msgid "Shows a list of recorded traceback messages."
+msgstr "Näyttää luettelon tallennetuista jäljityssanomista."
+
+msgid "You can also use `history.clear()` and `history.pop()`."
+msgstr "Voit myös käyttää `history.clear()` ja `history.pop()`."
+
+msgid "Nothing to delete: no exception recorded."
+msgstr "Ei mitään poistettavaa: virhettä ei ole kirjattu."
+
+msgid "There is no such history item."
+msgstr "Tällaista historiatietoa ei ole olemassa."
+
+msgid "{exception} is not an exception."
+msgstr "{exception} ei ole virhe."
+
+msgid "The default web browser cannot be used for searching."
+msgstr "Oletusarvoista verkkoselainta ei voi käyttää hakuun."
+
+msgid ""
+"Invalid argument for `www()`.\n"
+"Valid arguments are integer values or one of `{sites}`.\n"
+msgstr "Virheellinen argumentti komennolle `www()`. Kelvollisia argumentteja ovat kokonaislukuarvot tai yksi seuraavista: `{sites}`.\n"
+
+msgid "The following methods of the Friendly object should also be available as functions."
+msgstr "Friendly-objektin seuraavien metodien pitäisi olla käytettävissä myös funktioina."
+
+msgid "More lines not shown."
+msgstr "Muita rivejä ei ole esitetty."
+
+msgid "Python exception:"
+msgstr "Python-virhe:"
+
+msgid "The exception includes the following note:\n"
+msgstr "Virheeseen sisältyy seuraava huomautus:\n"
+
+msgid "The exception includes the following notes:\n"
+msgstr "Virhe sisältää seuraavat huomautukset:\n"
+
+msgid ""
+"Warning: improperly formed exception.\n"
+"I suspect that a custom exception has been raised\n"
+"with a non-string value used as a message.\n"
+"This can occur if a `__repr__` or a `__str__` method\n"
+"raises an exception or does not return a string.\n"
+msgstr "Varoitus: väärin muodostettu virhe. Epäilen, että kyseessä on muokautettu virhe, jonka viestinä on käytetty muuta kuin merkkijonoarvoa. Tämä voi tapahtua, jos `__repr__`- tai `__str__`-metodi antaa virheen tai ei palauta merkkijonoa.\n"
+
+msgid "The encoding of the file was not valid.\n"
+msgstr "Tiedoston koodaus ei ollut kelvollinen.\n"
+
+msgid "{filename} is not a regular Python file whose contents can be analyzed.\n"
+msgstr "{filename} ei ole tavallinen Python-tiedosto, jonka sisältöä voidaan analysoida.\n"
+
+msgid "If you used `exec`, consider using `friendly_exec` instead.\n"
+msgstr "Jos olet käyttänyt `exec`, harkitse sen sijaan `friendly_exec` käyttöä.\n"
+
+msgid "Exception raised on line `{linenumber}` of code block {filename}.\n"
+msgstr "Koodilohkon {filename} rivillä `<{linenumber}` havaittu virhe.\n"
+
+msgid "Exception raised on line `{linenumber}` of file '{filename}'.\n"
+msgstr "Virhe havaittiin rivillä `<{linenumber}` tiedostossa '{filename}'.\n"
+
+msgid "Execution stopped on line `{linenumber}` of code block {filename}.\n"
+msgstr "Suoritus pysähtyi koodilohkon {filename} riville `<{linenumber}`.\n"
+
+msgid "Execution stopped on line `{linenumber}` of file '{filename}'.\n"
+msgstr "Suoritus pysähtyi riville `{linenumber}` tiedostossa '{filename}'.\n"
+
+msgid "Code block {filename}, line `{line}`"
+msgstr "Koodilohko {filename}, rivi `<{line}``"
+
+msgid "File '{filename}', line `{line}`"
+msgstr "Tiedosto '{filename}', rivi `<{line}``"
+
+msgid "The entire content of `{filename}` is not available.\n"
+msgstr "`{filename}`:n koko sisältö ei ole käytettävissä.\n"
+
+msgid "Python could not understand the code in the code block {filename}\n"
+msgstr "Python ei ymmärtänyt koodilohkossa olevaa koodia {filename}.\n"
+
+msgid ""
+"Python could not understand the code in the file\n"
+"'{filename}'\n"
+msgstr "Python ei ymmärtänyt tiedostossa '{filename}' olevaa koodia.\n"
+
+msgid "at the location indicated.\n"
+msgstr "ilmoitetussa paikassa.\n"
+
+msgid ""
+"Unfortunately, no additional information is available:\n"
+"the content of file '<stdin>' is not accessible.\n"
+msgstr "Valitettavasti lisätietoja ei ole saatavilla: tiedoston '<stdin>' sisältöön ei pääse käsiksi.\n"
+
+msgid "Fatal error - aborting"
+msgstr "Kohtalokas virhe - keskeytys"
+
+msgid "Please report this issue."
+msgstr "Ilmoita tästä asiasta."
+
+msgid "Problem: source of `{filename}` is not available\n"
+msgstr "Ongelma: `{filename}` lähdettä ei ole saatavilla.\n"
+
+msgid "Use exit() or Ctrl-Z plus Return to exit."
+msgstr "Käytä exit() tai Ctrl-Z plus Return poistuaksesi."
+
+msgid "Use exit() or Ctrl-D to exit."
+msgstr "Käytä exit() tai Ctrl-D poistuaksesi."
+
+msgid "Type 'Friendly' for help on special functions/methods."
+msgstr "Kirjoita 'Friendly' saadaksesi apua erikoistoiminnoista/menetelmistä."
+
+msgid ""
+"Please report this example to\n"
+"https://github.com/friendly-traceback/friendly-traceback/issues/new\n"
+"If you are using a REPL, use `www('bug')` to do so.\n"
+"\n"
+msgstr "Ilmoita tästä esimerkistä osoitteeseen https://github.com/friendly-traceback/friendly-traceback/issues/new Jos käytät REPL:ää, käytä `www('bug')`.\n"
+
+msgid "Friendly-traceback does not know the cause of this error.\n"
+msgstr "Friendly-traceback ei tiedä tämän virheen syytä.\n"
+
+msgid "No information is known about this exception.\n"
+msgstr "Tästä virheestä ei ole tietoa.\n"
+
+msgid ""
+"If you are using the Friendly console, use `www()` to\n"
+"do an Internet search for this particular case.\n"
+msgstr "Jos käytät Friendly-konsolia, käytä `www()` tehdessäsi Internet-hakua tästä tapauksesta.\n"
+
+msgid "Internal error for Friendly.\n"
+msgstr "Sisäinen virhe ystävälle.\n"
+
+msgid "Disable friendly-traceback and restore previous exception hook."
+msgstr "Poista friendly-traceback käytöstä ja palauta edellinen virhekoukku."
+
+msgid "Enable friendly-traceback as an exception hook"
+msgstr "Ota friendly-traceback käyttöön virhekoukkuna"
+
+msgid "Shows all the information about the last traceback."
+msgstr "Näyttää kaikki tiedot viimeisimmästä jäljityksestä."
+
+msgid "Sets the language to be used."
+msgstr "Asettaa käytettävän kielen."
+
+msgid "Shows the paths corresponding to synonyms used."
+msgstr "Näyttää käytettyjä synonyymejä vastaavat polut."
+
+msgid "Shows the generic meaning of a given exception."
+msgstr "Näyttää tietyn virheen yleisen merkityksen."
+
+msgid "Shows where an exception was raised."
+msgstr "Näyttää, missä virhe on aiheutunut."
+
+msgid "Shows the likely cause of the exception."
+msgstr "Näyttää virheen todennäköisen syyn."
+
+msgid "Opens a web browser at a useful location."
+msgstr "Avaa verkkoselaimen hyödylliseen paikkaan."
+
+msgid "Suggestion sometimes added to a friendly traceback."
+msgstr "Ehdotus on joskus lisätty ystävälliseen jäljitykseen."
+
+msgid "Shows a normal Python traceback."
+msgstr "Näyttää normaalin Python-selvityksen."
+
+msgid "Shows a simplified Python traceback."
+msgstr "Näyttää yksinkertaistetun Python-takaisinkytkennän."
+
+msgid "Returns the current value used for items to include by default."
+msgstr "Palauttaa nykyisen arvon, jota käytetään oletusarvoisesti sisällytettäviin kohteisiin."
+
+msgid "Sets the items to show by default when an exception is raised."
+msgstr "Määrittää kohteet, jotka näytetään oletusarvoisesti, kun virhe ilmenee."
+
+msgid "Returns the language currently used."
+msgstr "Palauttaa tällä hetkellä käytetyn kielen."
+
+msgid "Sets the formatter to use for display."
+msgstr "Asettaa näytössä käytettävän muotoilijan."
+
+msgid "Use True (default) or False to enable debugging methods."
+msgstr "Käytä True (oletusarvo) tai False ottaaksesi käyttöön virheenkorjausmenetelmät."
+
+msgid "A warning of type `{name}` is a subclass of `{parent}`.\n"
+msgstr "Varoitus, jonka tyyppi on `{name}`, on `{parent}`:n aliluokka.\n"
+
+msgid "An exception of type `{name}` is a subclass of `{parent}`.\n"
+msgstr "Virhe, jonka tyyppi on `{name}`, on `{parent}`:n alaluokka.\n"
+
+msgid "Nothing more specific is known about `{name}`."
+msgstr "`{name}`:sta ei tiedetä mitään tarkempaa."
+
+msgid ""
+"The inheritance is as follows:\n"
+"\n"
+"    {tree}\n"
+msgstr "Perinnöllisyys on seuraava: {tree}\n"
+
+msgid ""
+"Most built-in exceptions defined by Python are derived from `Exception`.\n"
+"All user-defined exceptions should also be derived from this class.\n"
+msgstr "Useimmat Pythonin määrittelemät sisäänrakennetut virheet on johdettu luokasta `Exception`. Kaikki käyttäjän määrittelemät virheet tulisi myös johtaa tästä luokasta.\n"
+
+msgid ""
+"`BaseException` is the base class for all built-in exceptions.\n"
+"It is not meant to be directly inherited by user-defined classes.\n"
+msgstr "`BaseException` on perusluokka kaikille sisäänrakennetuille virheille, eikä sitä ole tarkoitus periyttää suoraan käyttäjän määrittelemiin luokkiin.\n"
+
+msgid ""
+"`ArithmeticError` is the base class for those built-in exceptions\n"
+"that are raised for various arithmetic errors.\n"
+msgstr "`ArithmeticError` on perusluokka niille sisäänrakennetuille virheille, jotka herätetään erilaisista aritmeettisista virheistä.\n"
+
+msgid ""
+"In Python, the keyword `assert` is used in statements of the form\n"
+"`assert condition`, to confirm that `condition` is not `False`,\n"
+"nor equivalent to `False` such as an empty list, etc.\n"
+"\n"
+"If `condition` is `False` or equivalent, an `AssertionError` is raised.\n"
+msgstr "Pythonissa avainsanaa `assert` käytetään lausekkeissa, jotka ovat muotoa `assert condition`, varmistaakseen, että `condition` ei ole `False` tai vastaava kuin `False`, kuten tyhjä lista jne. Jos `condition` on `False` tai vastaava, annetaan `AssertionError`.\n"
+
+msgid ""
+"An `AttributeError` occurs when the code contains something like\n"
+"    `object.x`\n"
+"and `x` is not a method or attribute (variable) belonging to `object`.\n"
+msgstr "`AttributeError` tapahtuu, kun koodi sisältää jotain kuten `object.x` ja `x` ei ole metodi tai attribuutti (muuttuja), joka kuuluu `object`:iin.\n"
+
+msgid ""
+"An `EOFError` is raised when the `input()` function hits\n"
+"an end-of-file condition (EOF) without reading any data.\n"
+msgstr "`EOFError`-virhe annetaan, kun `input()`-funktio osuu tiedoston loppuehtoon (EOF) lukematta mitään dataa.\n"
+
+msgid ""
+"A `FileNotFoundError` exception indicates that you\n"
+"are trying to open a file that cannot be found by Python.\n"
+"This could be because you misspelled the name of the file.\n"
+msgstr "Virhe `FileNotFoundError` tarkoittaa, että yrität avata tiedostoa, jota Python ei löydä. Tämä voi johtua siitä, että tiedoston nimi on kirjoitettu väärin.\n"
+
+msgid ""
+"An `ImportError` exception indicates that a certain object could not\n"
+"be imported from a module or package. Most often, this is\n"
+"because the name of the object is not spelled correctly.\n"
+msgstr "`ImportError`-virhe osoittaa, että tiettyä objektia ei voitu tuoda moduulista tai paketista. Useimmiten tämä johtuu siitä, että objektin nimi on kirjoitettu väärin.\n"
+
+msgid ""
+"An `IndentationError` occurs when a given line of code is\n"
+"not indented (aligned vertically with other lines) as expected.\n"
+msgstr "`IndentationError`-virhe tapahtuu, kun tiettyä koodiriviä ei ole sisennetty (kohdistettu pystysuoraan muiden rivien kanssa) odotetulla tavalla.\n"
+
+msgid ""
+"An `IndexError` occurs when you try to get an item from a list,\n"
+"a tuple, or a similar object (sequence), and use an index which\n"
+"does not exist; typically, this happens because the index you give\n"
+"is greater than the length of the sequence.\n"
+msgstr "`IndexError` tapahtuu, kun yrität hakea elementtiä listasta, tuplesta tai vastaavasta objektista (sequence) ja käytät indeksiä, jota ei ole olemassa; yleensä tämä tapahtuu, koska antamaasi indeksiä on enemmän kuin sequence:n pituus.\n"
+
+msgid ""
+"A `KeyError` is raised when a value is not found as a\n"
+"key in a Python dict or in a similar object.\n"
+msgstr "`KeyError`-ilmoitus annetaan, kun arvoa ei löydy avaimena Python dictistä tai vastaavasta objektista.\n"
+
+msgid ""
+"`LookupError` is the base class for the exceptions that are raised\n"
+"when a key or index used on a mapping or sequence is invalid.\n"
+"It can also be raised directly by codecs.lookup().\n"
+msgstr "`LookupError` on perusluokka virheille, jotka herätetään, kun kartoituksessa tai sekvenssissä käytetty avain tai indeksi on virheellinen. Se voidaan herättää myös suoraan codecs.lookup():lla.\n"
+
+msgid ""
+"Like the name indicates, a `MemoryError` occurs when Python\n"
+"runs out of memory. This can happen if you create an object\n"
+"that is too big, like a list with too many items.\n"
+msgstr "Kuten nimestä käy ilmi, `MemoryError` ilmenee, kun Pythonilta loppuu muisti. Näin voi tapahtua, jos luot liian suuren objektin, kuten listan, jossa on liian monta kohdetta.\n"
+
+msgid ""
+"A `ModuleNotFoundError` exception indicates that you\n"
+"are trying to import a module that cannot be found by Python.\n"
+"This could be because you misspelled the name of the module\n"
+"or because it is not installed on your computer.\n"
+msgstr "Virhe `ModuleNotFoundError` tarkoittaa, että yrität tuoda moduulia, jota Python ei löydä. Tämä voi johtua siitä, että olet kirjoittanut moduulin nimen väärin tai että sitä ei ole asennettu tietokoneellesi.\n"
+
+msgid ""
+"A `NameError` exception indicates that a variable or\n"
+"function name is not known to Python.\n"
+"Most often, this is because there is a spelling mistake.\n"
+"However, sometimes it is because the name is used\n"
+"before being defined or given a value.\n"
+msgstr "`NameError`-virhe osoittaa, että muuttujan tai funktion nimeä ei tunneta Pythonissa. Useimmiten tämä johtuu kirjoitusvirheestä. Joskus se johtuu kuitenkin siitä, että nimeä käytetään ennen kuin se on määritelty tai sille on annettu arvo.\n"
+
+msgid ""
+"An `OSError` exception is usually raised by the Operating System\n"
+"to indicate that an operation is not allowed or that\n"
+"a resource is not available.\n"
+msgstr "Käyttöjärjestelmä herättää yleensä `OSError`-virhe osoittaakseen, että jokin toiminto ei ole sallittu tai että resurssi ei ole käytettävissä.\n"
+
+msgid ""
+"An `OverflowError` is raised when the result of an arithmetic operation\n"
+"is too large to be handled by the computer's processor.\n"
+msgstr "`OverflowError`-virhe annetaan, kun aritmeettisen operaation tulos on liian suuri tietokoneen prosessorin käsiteltäväksi.\n"
+
+msgid ""
+"A `RecursionError` is raised when a function calls itself,\n"
+"directly or indirectly, too many times.\n"
+"It almost always indicates that you made an error in your code\n"
+"and that your program would never stop.\n"
+msgstr "`RecursionError` tulee esiin, kun funktio kutsuu itseään, suoraan tai epäsuorasti, liian monta kertaa. Se osoittaa lähes aina, että olet tehnyt virheen koodissasi ja että ohjelmasi ei koskaan pysähtyisi.\n"
+
+msgid ""
+"A `RuntimeError` is raised when an error is detected that doesn't fall in any\n"
+"of the more specific exception types defined by Python.\n"
+msgstr "`RuntimeError` herätetään, kun havaitaan virhe, joka ei kuulu mihinkään Pythonin määrittelemiin virhetyyppeihin.\n"
+
+msgid ""
+"`StopIteration` is raised to indicate that an iterator has no more\n"
+"item to provide when its `__next__` method is called by\n"
+"the `next()` builtin function.\n"
+msgstr "`StopIteration` nostetaan ilmaisemaan, että iteraattorilla ei ole enempää kohteita tarjottavana, kun sen `__next__`-metodia kutsutaan `next()`-rakennetulla funktiolla.\n"
+
+msgid "A `SyntaxError` occurs when Python cannot understand your code.\n"
+msgstr "`SyntaxError` aiheutuu, kun Python ei ymmärrä koodiasi.\n"
+
+msgid ""
+"A `TabError` indicates that you have used both spaces\n"
+"and tab characters to indent your code.\n"
+"This is not allowed in Python.\n"
+"Indenting your code means to have block of codes aligned vertically\n"
+"by inserting either spaces or tab characters at the beginning of lines.\n"
+"Python's recommendation is to always use spaces to indent your code.\n"
+msgstr "`TabError` tarkoittaa, että olet käyttänyt sekä välilyöntejä että tabulaattorimerkkejä koodin sisennykseen. Tämä ei ole sallittua Pythonissa. Koodin sisennys tarkoittaa koodilohkojen kohdistamista pystysuoraan joko välilyöntejä tai tabulaattorimerkkejä rivien alkuun. Python suosittelee, että koodin sisennykseen käytetään aina välilyöntejä.\n"
+
+msgid ""
+"A `TypeError` is usually caused by trying\n"
+"to combine two incompatible types of objects,\n"
+"by calling a function with the wrong type of object,\n"
+"or by trying to do an operation not allowed on a given type of object.\n"
+msgstr "`TypeError` aiheutuu yleensä siitä, että yritetään yhdistää kaksi yhteensopimatonta objektityyppiä, kutsutaan funktiota väärän tyyppisellä objektilla tai yritetään tehdä operaatio, joka ei ole sallittu tietyn tyyppiselle objektille.\n"
+
+msgid ""
+"A `ValueError` indicates that a function or an operation\n"
+"received an argument of the right type, but an inappropriate value.\n"
+msgstr "`ValueError` tarkoittaa, että funktio tai operaatio on saanut oikeantyyppisen argumentin, mutta vääränlaisen arvon.\n"
+
+msgid ""
+"In Python, variables that are used inside a function are known as \n"
+"local variables. Before they are used, they must be assigned a value.\n"
+"A variable that is used before it is assigned a value is assumed to\n"
+"be defined outside that function; it is known as a `global`\n"
+"(or sometimes `nonlocal`) variable. You cannot assign a value to such\n"
+"a global variable inside a function without first indicating to\n"
+"Python that this is a global variable, otherwise you will see\n"
+"an `UnboundLocalError`.\n"
+msgstr "Pythonissa funktion sisällä käytettäviä muuttujia kutsutaan paikallisiksi muuttujiksi. Ennen kuin niitä käytetään, niille on annettava arvo. Muuttuja, jota käytetään ennen kuin sille annetaan arvo, oletetaan määritellyksi funktion ulkopuolella; sitä kutsutaan `globaaliksi` (tai joskus `ei-lokaaliseksi`) muuttujaksi. Tällaiselle globaalille muuttujalle ei voi antaa arvoa funktion sisällä ilman, että Pythonille ilmoitetaan ensin, että kyseessä on globaali muuttuja, muuten saat `UnboundLocalError`-virheen.\n"
+
+msgid ""
+"A `ZeroDivisionError` occurs when you are attempting to divide a value\n"
+"by zero either directly or by using some other mathematical operation.\n"
+msgstr "`ZeroDivisionError`-virhe tapahtuu, kun yrität jakaa arvon nollalla joko suoraan tai käyttämällä jotain muuta matemaattista operaatiota.\n"
+
+msgid "`UserWarning` is the default class for `warnings.warn()`.\n"
+msgstr "`UserWarning` on `warnings.warn()`-luokan oletusluokka.\n"
+
+msgid "`SyntaxWarning` often indicates that your code will likely not give the result you expect.\n"
+msgstr "`SyntaxWarning` kertoo usein, että koodisi ei todennäköisesti anna odotettua tulosta.\n"
+
+msgid "`DeprecationWarning` indicates that some feature will not be available in a future version.\n"
+msgstr "`DeprecationWarning` tarkoittaa, että jokin ominaisuus ei ole käytettävissä tulevassa versiossa.\n"
+
+msgid "`RuntimeWarning` often indicates some not recommended runtime features.\n"
+msgstr "`RuntimeWarning` kertoo usein joistakin ei-suositelluista suoritusaikaominaisuuksista.\n"
+
+msgid ""
+"`FutureWarning` is the base category for features that will likely be deprecated\n"
+"in future Python versions.\n"
+msgstr "`FutureWarning` on peruskategoria ominaisuuksille, jotka todennäköisesti poistuvat käytöstä tulevissa Python-versioissa.\n"
+
+msgid "`UnicodeWarning` is the base category for warnings related to unicode.\n"
+msgstr "`UnicodeWarning` on unicodeen liittyvien varoitusten perusluokka.\n"
+
+msgid "`BytesWarning` is the base category for warnings related to bytes and bytearray.\n"
+msgstr "`BytesWarning` on peruskategoria tavuihin ja tavujoukkoihin liittyville varoituksille.\n"
+
+msgid "`Warning` is the base class of all warning category classes.\n"
+msgstr "`Warning` on kaikkien varoitusluokkien perusluokka.\n"
+
+msgid "a complex number"
+msgstr "kompleksiluku"
+
+msgid "a dictionary (`dict`)"
+msgstr "sanakirja (`dict`)"
+
+msgid "a number (`float`)"
+msgstr "luku (`float`)"
+
+msgid "a `frozenset`"
+msgstr "`frozenset`"
+
+msgid "an integer (`int`)"
+msgstr "kokonaisluku (`int`)"
+
+msgid "a `list`"
+msgstr "a `list`"
+
+msgid "a variable equal to `None` (`NoneType`)"
+msgstr "muuttuja, jonka arvo on `None` (`NoneType`)."
+
+msgid "a `set`"
+msgstr "a `set`"
+
+msgid "a string (`str`)"
+msgstr "merkkijono (`str`)"
+
+msgid "a `tuple`"
+msgstr "`tuple`"
+
+msgid "Friendly warning: you have redefined the python builtin `{name}`.\n"
+msgstr "Ystävällinen varoitus: olet määritellyt uudelleen pythonin sisäänrakennetun `{name}`.\n"
+
+msgid "Object too large to be processed by Python."
+msgstr "Kohde on liian suuri Pythonin käsiteltäväksi."
+
+msgid "Unable to compute."
+msgstr "Laskenta ei onnistu."
+
+msgid ""
+"A type hint found for `{name}` in the {scope} scope.\n"
+"Perhaps you had used a colon instead of an equal sign and wrote\n"
+"\n"
+"    {name} : {hint}\n"
+"\n"
+"instead of\n"
+"\n"
+"    {name} = {hint}\n"
+msgstr "{scope}-alueelta löytyi tyyppivihje `{name}`. Ehkä olit käyttänyt kaksoispistettä yhtäläisyysmerkin sijasta ja kirjoittanut {name} : {hint} {name} = {hint}:n sijasta.\n"
+
+msgid "The default directory is {dirname}."
+msgstr "Oletushakemisto on {dirname}."
+
+msgid "Did you give your program the same name as a Python module?\n"
+msgstr "Annoitko ohjelmallesi saman nimen kuin Python-moduulille?\n"
+
+msgid ""
+"I suspect that you used the name `{module}.py` for your program\n"
+"and that you also wanted to import a module with the same name\n"
+"from Python's standard library.\n"
+"If so, you should use a different name for your program.\n"
+msgstr "Epäilen, että käytit ohjelmassasi nimeä `{module}.py` ja että halusit myös tuoda samannimisen moduulin Pythonin standardikirjastosta. Jos näin on, sinun pitäisi käyttää ohjelmassasi eri nimeä.\n"
+
+msgid "You have a circular import.\n"
+msgstr "Teillä on ympäripyöreä tuonti.\n"
+
+msgid "You likely have a circular import.\n"
+msgstr "Sinulla on todennäköisesti ympyrätuonti.\n"
+
+msgid "Python indicated that the module `{module}` was not fully imported.\n"
+msgstr "Python ilmoitti, että moduulia `{module}` ei ollut tuotu kokonaan.\n"
+
+msgid ""
+"This can occur if, during the execution of the code in module `{module}`\n"
+"an attempt is made to import the same module again.\n"
+msgstr "Tämä voi tapahtua, jos moduulin `{module}` koodin suorituksen aikana yritetään tuoda sama moduuli uudelleen.\n"
+
+msgid ""
+"This should not happen:\n"
+"Python tells us that module `{module}` does not have an attribute named `{attribute}`.\n"
+"However, it does not appear that module `{module}` was imported.\n"
+msgstr "Näin ei pitäisi tapahtua: Python kertoo meille, että moduulissa `{module}` ei ole attribuuttia nimeltä `{attribute}`. Moduulia `{module}` ei kuitenkaan ole tuotu.\n"
+
+msgid "Did you mean `{name}`?\n"
+msgstr "Tarkoititko `{name}`?\n"
+
+msgid "Perhaps you meant to write `{module}.{correct}` instead of `{module}.{typo}`\n"
+msgstr "Ehkä sinun piti kirjoittaa `{module}.{correct}` eikä `{module}.{typo}`.\n"
+
+msgid ""
+"Instead of writing `{module}.{typo}`, perhaps you meant to write one of \n"
+"the following names which are attributes of module `{module}`:\n"
+"`{names}`\n"
+msgstr "Sen sijaan, että kirjoittaisit `<{module}.{typo}`, ehkä sinun piti kirjoittaa jokin seuraavista nimistä, jotka ovat moduulin `{module}` attribuutteja: `<{names}``\n"
+
+msgid ""
+"You imported a module named `{module}` from `{mod_path}`.\n"
+"There is also a module named `{module}` in Python's standard library.\n"
+"Perhaps you need to rename your module.\n"
+msgstr "Olet tuonut moduulin nimeltä `{module}` osoitteesta `{mod_path}`. Pythonin standardikirjastossa on myös moduuli nimeltä `{module}`. Ehkä sinun täytyy nimetä moduuli uudelleen.\n"
+
+msgid ""
+"Perhaps you meant to use the attribute `{attribute}` of \n"
+"module `{mod_name}` instead of module `{module}`.\n"
+msgstr "Ehkä tarkoitit käyttää moduulin `{mod_name}` attribuuttia `{attribute}` moduulin `{module}` sijaan.\n"
+
+msgid "Did you mean one of the following modules: `{names}`?"
+msgstr "Tarkoititko jotakin seuraavista moduuleista: `{names}`?"
+
+msgid ""
+"Instead of the module `{module}`, perhaps you wanted to use\n"
+"the attribute `{attribute}` of one of the following modules:\n"
+"`{names}`.\n"
+msgstr "Moduulin `{module}` sijasta haluaisit ehkä käyttää jonkin seuraavan moduulin attribuuttia `{attribute}`: `{names}`.\n"
+
+msgid ""
+"Python tells us that no object with name `{attribute}` is\n"
+"found in module `{module}`.\n"
+msgstr "Python kertoo, että moduulista `{module}` ei löydy objektia, jonka nimi on `{attribute}`.\n"
+
+msgid "`add_note()` is only allowed for Python version 3.11 and newer.\n"
+msgstr "`add_note()` on sallittu vain Python-versiossa 3.11 ja uudemmissa.\n"
+
+msgid "You are using Python version {version}.\n"
+msgstr "Käytät Python-versiota {version}.\n"
+
+msgid ""
+"You are attempting to access the attribute `{attr}`\n"
+"for a variable whose value is `None`."
+msgstr "Yrität käyttää attribuuttia `{attr}` muuttujalle, jonka arvo on `None`."
+
+msgid ""
+"The value of attribute `{attribute}` of objects of type `{obj_type}`\n"
+"cannot be changed.\n"
+"I have no further information.\n"
+msgstr "Tyypin `{obj_type}` objektien `{obj_type}` attribuutin `{attribute}` arvoa ei voi muuttaa. Minulla ei ole lisätietoja.\n"
+
+msgid ""
+"Object `{name}` uses an empty `__slots__` to prevent the modification\n"
+"of any of its attributes.\n"
+msgstr "Objekti `{name}` käyttää tyhjää `__slots__` estääkseen minkään sen attribuutin muuttamisen.\n"
+
+msgid ""
+"Object `{name}` uses `__slots__` to specify which attributes can\n"
+"be changed. The value of attribute `{name}.{attribute}` cannot be changed.\n"
+msgstr "Objektissa `{name}` käytetään `__slots__` määrittämään, mitä attribuutteja voidaan muuttaa. Attribuutin `{name}.{attribute}` arvoa ei voi muuttaa.\n"
+
+msgid ""
+"`{obj_name}` is a function. Perhaps you meant to write\n"
+"`{obj_name}({attribute})`\n"
+msgstr "`{obj_name}` on funktio. Ehkä sinun piti kirjoittaa `{obj_name}({attribute})`.\n"
+
+msgid "Did you mean `{obj_name}({attribute})`?\n"
+msgstr "Tarkoititko `{obj_name}({attribute})`?\n"
+
+msgid ""
+"`{obj_name}` is a Python built-in function or method\n"
+"which does not have an attribute named `{attribute}.`\n"
+msgstr "`{obj_name}` on Pythonin sisäänrakennettu funktio tai menetelmä, jolla ei ole attribuuttia nimeltä `{attribute}.`\n"
+
+msgid ""
+"An object of type `{obj_type}` has no attribute named `{attr}`.\n"
+"Unfortunately I cannot find such an object on the line where\n"
+"the problem occurs.\n"
+msgstr "Tyypin `{obj_type}` objektilla ei ole attribuuttia nimeltä `{attr}`. Valitettavasti en löydä tällaista objektia riviltä, jossa ongelma ilmenee.\n"
+
+msgid ""
+"An object of type `{obj_type}` has no attribute named `{attr}`.\n"
+"\n"
+"I cannot give additional information:\n"
+"I found one object of this type in the current scope\n"
+"but it does not appear to be the object causing the problem.\n"
+msgstr "Tyypin `{obj_type}` objektilla ei ole attribuuttia nimeltä `{attr}`. En voi antaa lisätietoja: löysin yhden tämäntyyppisen objektin nykyiseltä alueelta, mutta se ei näytä olevan ongelman aiheuttava objekti.\n"
+
+msgid ""
+"An object of type `{obj_type}` has no attribute named `{attr}`.\n"
+"\n"
+"The following objects might be the cause of the problem: \n"
+"{names}.\n"
+msgstr ""
+"Tyypin `{obj_type}` objektilla ei ole attribuuttia nimeltä `{attr}`. Seuraavat objektit saattavat olla ongelman syynä: \n"
+"{names}.\n"
+
+msgid "The object `{obj}` has no attribute named `{attr}`.\n"
+msgstr "Objektilla `{obj}` ei ole attribuuttia nimeltä `{attr}`.\n"
+
+msgid ""
+"Note that object `{obj}` uses `__slots__` which prevents\n"
+"the creation of new attributes.\n"
+msgstr "Huomaa, että objekti `{obj}` käyttää `__slots__`, joka estää uusien attribuuttien luomisen.\n"
+
+msgid ""
+"The following are some of its known attributes:\n"
+"`{names}`."
+msgstr "Seuraavassa on joitakin sen tunnetuista ominaisuuksista: `{names}`."
+
+msgid "The object `{obj_name}` has no attribute named `{attribute}`.\n"
+msgstr "Objektilla `{obj_name}` ei ole attribuuttia nimeltä `{attribute}`.\n"
+
+msgid "Perhaps you meant to write `{obj}.{correct}` instead of `{obj}.{typo}`\n"
+msgstr "Ehkä sinun piti kirjoittaa `{obj}.{correct}` eikä `{obj}.{typo}`.\n"
+
+msgid "Did you mean one of the following: `{names}`?\n"
+msgstr "Tarkoititko jotakin seuraavista: `{names}`?\n"
+
+msgid ""
+"Instead of writing `{obj}.{typo}`, perhaps you meant to write one of \n"
+"the following names which are attributes of object `{obj}`:\n"
+"`{names}`\n"
+msgstr "Sen sijaan, että kirjoittaisit `{obj}.{typo}`, ehkä sinun piti kirjoittaa jokin seuraavista nimistä, jotka ovat objektin `{obj}` attribuutteja: `<{names}``.\n"
+
+msgid "Did you write a comma by mistake?\n"
+msgstr "Kirjoititko vahingossa pilkun?\n"
+
+msgid ""
+"`{obj_name}` is a tuple that contains a single item\n"
+"which does have `'{attribute}'` as an attribute.\n"
+"Perhaps you added a trailing comma by mistake at the end of the line\n"
+"where you defined `{obj_name}`.\n"
+msgstr "`{obj_name}` on tuple, joka sisältää yhden kohteen, jonka attribuutti on `'{attribute}'`. Ehkä lisäsit vahingossa pilkun sen rivin loppuun, jossa määrittelit `{obj_name}`.\n"
+
+msgid "Did you mean `{str_content}.join({obj_name})`?\n"
+msgstr "Tarkoititko `{str_content}.join({obj_name})`?\n"
+
+msgid ""
+"The object `{obj_name}` has no attribute named `join`.\n"
+"Perhaps you wanted something like `{str_content}.join({obj_name})`.\n"
+msgstr "Objektilla `{obj_name}` ei ole attribuuttia nimeltä `join`. Ehkä halusit jotain sellaista kuin `{str_content}.join({obj_name})`.\n"
+
+msgid "Did you mean `{known_builtin}({obj_name})`?\n"
+msgstr "Tarkoititko `{known_builtin}({obj_name})`?\n"
+
+msgid ""
+"The object `{obj_name}` has no attribute named `{attribute}`.\n"
+"Perhaps you can use the Python builtin function `{known_builtin}` instead:\n"
+"`{known_builtin}({obj_name})`."
+msgstr "Objektilla `{obj_name}` ei ole attribuuttia nimeltä `{attribute}`. Ehkä voit käyttää sen sijaan Pythonin sisäänrakennettua funktiota `{known_builtin}`: `<{known_builtin}({obj_name})`."
+
+msgid "Did you mean `{attr}`?\n"
+msgstr "Tarkoititko `{attr}`?\n"
+
+msgid "The object `{name}` has no attribute named `{attribute}`.\n"
+msgstr "Objektilla `{name}` ei ole attribuuttia nimeltä `{attribute}`.\n"
+
+msgid "However, `{attr}` is an attribute of `{name}` with a similar meaning.\n"
+msgstr "`{attr}` on kuitenkin `{name}`:n attribuutti, jolla on samanlainen merkitys.\n"
+
+msgid ""
+"However, `{name}` has the following attributes with similar meanings:\n"
+"`{attributes}`.\n"
+msgstr "`{name}`:llä on kuitenkin seuraavat attribuutit, joilla on samanlainen merkitys: `{attributes}`.\n"
+
+msgid "Did you mean to separate object names by a comma?\n"
+msgstr "Tarkoititko erottaa kohteiden nimet pilkulla?\n"
+
+msgid ""
+"`{second}` is not an attribute of `{first}`.\n"
+"However, both `{first}` and `{second}` are known objects.\n"
+"Perhaps you wrote a period to separate these two objects, \n"
+"instead of using a comma.\n"
+msgstr "`{second}` ei ole attribuutti kohteelle `{first}`. Kuitenkin sekä `{first}` että `{second}` ovat tunnettuja kohteita. Ehkä kirjoitit pisteen erottamaan nämä kaksi kohdetta toisistaan pilkun sijasta.\n"
+
+msgid ""
+"In your program, the name of the\n"
+"file that cannot be found is `{filename}`.\n"
+msgstr "Ohjelmassasi sen tiedoston nimi, jota ei löydy, on `{filename}`.\n"
+
+msgid ""
+"{directory}\n"
+"is not a valid directory.\n"
+msgstr "{directory} ei ole kelvollinen hakemisto.\n"
+
+msgid ""
+"It was expected to be found in the\n"
+"`{directory}` directory.\n"
+msgstr "Sen odotettiin löytyvän hakemistosta `{directory}`.\n"
+
+msgid "Did you mean `{similar}`?\n"
+msgstr "Tarkoititko `{similar}`?\n"
+
+msgid "The file `{similar}` has a similar name.\n"
+msgstr "Tiedostolla `{similar}` on samanlainen nimi.\n"
+
+msgid "Perhaps you meant one of the following files with similar names:\n"
+msgstr "Ehkä tarkoitit jotakin seuraavista samannimisistä tiedostoista:\n"
+
+msgid "I have no additional information for you.\n"
+msgstr "Minulla ei ole lisätietoja sinulle.\n"
+
+msgid ""
+"The object that could not be imported is `{name}`.\n"
+"The module or package where it was \n"
+"expected to be found is `{module}`.\n"
+msgstr "Objekti, jota ei voitu tuoda, on `{name}`. Moduuli tai paketti, josta sen odotettiin löytyvän, on `{module}`.\n"
+
+msgid ""
+"Python indicated that you have a circular import.\n"
+"This can occur if executing the code in module 'A'\n"
+"results in executing the code in module 'B' where\n"
+"an attempt to import a name from module 'A' is made\n"
+"before the execution of the code in module 'A' had been completed.\n"
+msgstr "Python ilmoitti, että sinulla on ympyrätuonti. Tämä voi tapahtua, jos koodin suorittaminen moduulissa 'A' johtaa koodin suorittamiseen moduulissa 'B', jossa yritetään tuoda nimi moduulista 'A' ennen kuin koodin suorittaminen moduulissa 'A' on saatu päätökseen.\n"
+
+msgid ""
+"Inconsistent state: `'{module}'` was apparently not imported.\n"
+"As a result, no further analysis can be done.\n"
+msgstr "Epäjohdonmukainen tila: `'{module}'`` ei ilmeisesti ole tuotu. Tämän seurauksena lisäanalyysiä ei voida tehdä.\n"
+
+msgid "Perhaps you meant to import `{correct}` (from `{module}`) instead of `{typo}`\n"
+msgstr "Ehkä tarkoitit tuoda `{correct}` (moduulista `{module}`) etkä `{typo}`.\n"
+
+msgid ""
+"Instead of trying to import `{typo}` from `{module}`, \n"
+"perhaps you meant to import one of \n"
+"the following names which are found in module `{module}`:\n"
+"`{candidates}`\n"
+msgstr "Sen sijaan, että olisit yrittänyt tuoda `{typo}` moduulista `{module}`, ehkä sinun piti tuoda jokin seuraavista nimistä, jotka löytyvät moduulista `{module}`: `{candidates}`.\n"
+
+msgid "The object that could not be imported is `{name}`.\n"
+msgstr "Kohde, jota ei voitu tuoda, on `{name}`.\n"
+
+msgid ""
+"The problem was likely caused by what is known as a 'circular import'.\n"
+"First, Python imported and started executing the code in file\n"
+"   '{file}'.\n"
+"which imports module `{last_module}`.\n"
+"During this process, the code in another file,\n"
+"   '{last_file}'\n"
+"was executed. However in this last file, an attempt was made\n"
+"to import the original module `{last_module}`\n"
+"a second time, before Python had completed the first import.\n"
+msgstr "Ongelma johtui todennäköisesti niin sanotusta 'ympyrätuonnista'. Python toi ensin tiedoston '{file}' koodin, joka tuo moduulin `{last_module}`, ja aloitti sen suorittamisen. Tämän prosessin aikana toisessa tiedostossa '{last_file}' olevaa koodia suoritettiin. Tässä viimeisessä tiedostossa yritettiin kuitenkin tuoda alkuperäinen moduuli `{last_module}` toisen kerran, ennen kuin Python oli suorittanut ensimmäisen tuonnin loppuun.\n"
+
+msgid ""
+"You have tried to assign a value to an item of an object\n"
+"of type `{obj_type}` which I cannot identify.\n"
+"The index you gave was not an allowed value.\n"
+msgstr "Olet yrittänyt antaa arvoa objektityypin `{obj_type}` kohteelle, jota en pysty tunnistamaan. Antamasi indeksi ei ole sallittu arvo.\n"
+
+msgid ""
+"You have tried to assign a value to index `{index}` of `{name}`,\n"
+"{obj_type} of length `{length}`.\n"
+msgstr "Olet yrittänyt antaa arvon `{name}`:n indeksille `{index}`, {obj_type}, jonka pituus on `{length}`.\n"
+
+msgid ""
+"The valid index values of `{name}` are integers ranging from\n"
+"`{min}` to `{max}`.\n"
+msgstr "`{name}`:n kelvolliset indeksiarvot ovat kokonaislukuja välillä `{min}` ja `{max}`.\n"
+
+msgid "Remember: the first item of {obj_type} is not at index 1 but at index 0.\n"
+msgstr "Muista: {obj_type}:n ensimmäinen kohde ei ole indeksissä 1 vaan indeksissä 0.\n"
+
+msgid "`{name}` contains no item.\n"
+msgstr "`{name}` ei sisällä mitään kohdetta.\n"
+
+msgid ""
+"You have tried to assign a value to index `{index}` of `{name}`,\n"
+"{obj_type} which contains no item.\n"
+msgstr "Olet yrittänyt antaa arvon indeksille `{index}` indeksissä `{name}`, {obj_type}, joka ei sisällä elementtiä.\n"
+
+msgid ""
+"You have tried to get an item of an object\n"
+"of type `{obj_type}` which I cannot identify.\n"
+"The index you gave was not an allowed value.\n"
+msgstr "Olet yrittänyt hakea elementtiä, jonka tyyppi on `{obj_type}`, jota en pysty tunnistamaan. Antamasi indeksi ei ole sallittu arvo.\n"
+
+msgid ""
+"You have tried to get an item from `{name}`,\n"
+"{obj_type} of length `{length}`, by using a value for the index\n"
+"that I cannot determine but which is not allowed.\n"
+msgstr "Olet yrittänyt hakea `{name}`, {obj_type}:stä elementin, jonka pituus on `{length}`, käyttämällä indeksin arvoa, jota en pysty määrittämään, mutta joka ei ole sallittu.\n"
+
+msgid ""
+"You have tried to get the item with index `{index}` of `{name}`,\n"
+"{obj_type} of length `{length}`.\n"
+msgstr "Olet yrittänyt saada kohteen, jonka indeksi on `{index}`, `{name}`, {obj_type} ja pituus `{length}`.\n"
+
+msgid ""
+"You have tried to get the item with index `{index}` of `{name}`,\n"
+"{obj_type} which contains no item.\n"
+msgstr "Olet yrittänyt saada kohteen, jonka indeksi on `{name}`, {obj_type}, jonka indeksi on `{index}` ja joka ei sisällä mitään kohdetta.\n"
+
+msgid ""
+"You tried to retrieve an item from an empty `dict`\n"
+"or a similar object which I cannot identify.\n"
+msgstr "Yritit hakea kohteen tyhjästä `dictistä` tai vastaavasta objektista, jota en pysty tunnistamaan.\n"
+
+msgid "`{name}` is an empty `dict`.\n"
+msgstr "`{name}` on tyhjä `dict`.\n"
+
+msgid "You tried to retrieve an item from `{name}` which is an empty `dict`.\n"
+msgstr "Yritit hakea elementin `{name}`:sta, joka on tyhjä `dict`.\n"
+
+msgid ""
+"You tried to retrieve an item from an empty ChainMap\n"
+"or similar object which I cannot identify.\n"
+msgstr "Yritit hakea kohteen tyhjästä ChainMapista tai vastaavasta kohteesta, jota en pysty tunnistamaan.\n"
+
+msgid "`{name}` is an empty `ChainMap`.\n"
+msgstr "`{name}` on tyhjä `ChainMap`.\n"
+
+msgid "You tried to retrieve an item from `{name}` which is an empty `ChainMap`.\n"
+msgstr "Yritit hakea elementin kohteesta `{name}`, joka on tyhjä `ChainMap`.\n"
+
+msgid "Missing key `{key}` in a `ChainMap` or in a similar object.\n"
+msgstr "Avain `{key}` puuttuu `ChainMapissa` tai vastaavassa objektissa.\n"
+
+msgid ""
+"A `dict` or a similar object which I cannot identify\n"
+"does not have `{key}` as a key.\n"
+msgstr "`dict`- tai vastaavalla objektilla, jota en pysty tunnistamaan, ei ole `{key}`-avainta.\n"
+
+msgid "The key `{key}` cannot be found in the dict `{name}`.\n"
+msgstr "Avainta `{key}` ei löydy diktaattorista `{name}`.\n"
+
+msgid "The key `{key}` cannot be found in `{name}`, an object of type `{obj_type}`.\n"
+msgstr "Avainta `{key}` ei löydy kohteesta `{name}`, jonka tyyppi on `{obj_type}`.\n"
+
+msgid ""
+"`{name}` contains a string key which is identical to `str({key})`.\n"
+"Perhaps you forgot to convert the key into a string.\n"
+msgstr "`{name}` sisältää merkkijonoavaimen, joka on sama kuin `str({key})`. Ehkä unohdit muuntaa avaimen merkkijonoksi.\n"
+
+msgid "Did you forget to convert `{key}` into a string?\n"
+msgstr "Unohditko muuntaa `{key}` merkkijonoksi?\n"
+
+msgid ""
+"`{key}` is a string.\n"
+"There is a key of `{name}` whose string representation\n"
+"is identical to `{key}`.\n"
+msgstr "`{key}` on merkkijono. On olemassa `{name}`-avain, jonka merkkijonoesitys on sama kuin `{key}`.\n"
+
+msgid "Did you convert `{key}` into a string by mistake?\n"
+msgstr "Muunnitko `{key}` vahingossa merkkijonoksi?\n"
+
+msgid "`{name}` is a key of `{dict_}` which is similar to `{key}`.\n"
+msgstr "`{name}` on `{dict_}`:n avain, joka on samanlainen kuin `{key}`.\n"
+
+msgid ""
+"`{name}` has some keys similar to `{key}` including:\n"
+"`{names}`.\n"
+msgstr "`{name}`:llä on joitakin `{key}`:n kaltaisia avaimia, kuten: `{names}`.\n"
+
+msgid "No additional information available since `{name}` cannot be imported.\n"
+msgstr "Lisätietoja ei ole saatavilla, koska `{name}` ei voida tuoda.\n"
+
+msgid "Did you mean `from {name} import {rest}`?\n"
+msgstr "Tarkoititko `from {name} import {rest}`?\n"
+
+msgid "`{rest}` is not a separate module but an object that is part of `{name}`.\n"
+msgstr "`{rest}` ei ole erillinen moduuli vaan objekti, joka on osa `{name}`:a.\n"
+
+msgid "Did you mean `import {name}.{attr}`?\n"
+msgstr "Tarkoititko `import {name}.{attr}`?\n"
+
+msgid ""
+"Perhaps you meant `import {name}.{attr}`.\n"
+"`{attr}` is a name similar to `{rest}` and is a module that\n"
+"can be imported from `{name}`.\n"
+msgstr "Ehkä tarkoitit `import {name}.{attr}`. `{attr}` on samanlainen nimi kuin `{rest}` ja se on moduuli, joka voidaan tuoda `{name}`:sta.\n"
+
+msgid "Did you mean `from {name} import {attr}`?\n"
+msgstr "Tarkoititko `from {name} import {attr}`?\n"
+
+msgid ""
+"Perhaps you meant `from {name} import {attr}`.\n"
+"`{attr}` is a name similar to `{rest}` and is an object that\n"
+"can be imported from `{name}`.\n"
+msgstr "Ehkä tarkoitit `from {name} import {attr}`. `{attr}` on samankaltainen nimi kuin `{rest}` ja on objekti, joka voidaan tuoda `{name}`:sta.\n"
+
+msgid ""
+"Other objects with similar names that are part of\n"
+" `{name}` include `{others}`.\n"
+msgstr "Muita samannimisiä objekteja, jotka ovat osa `{name}`:a, ovat esimerkiksi `{others}`.\n"
+
+msgid "`{rest}` cannot be imported from `{name}`.\n"
+msgstr "`{rest}` ei voi tuoda `{name}`:sta.\n"
+
+msgid "The curses module is rarely installed with Python on Windows.\n"
+msgstr "Curses-moduuli asennetaan harvoin Pythonin kanssa Windowsissa.\n"
+
+msgid "The curses module is often not installed with Python.\n"
+msgstr "Curses-moduulia ei useinkaan asenneta Pythonin mukana.\n"
+
+msgid "You have tried to import the curses module.\n"
+msgstr "Olet yrittänyt tuoda curses-moduulin.\n"
+
+msgid ""
+"No module named `{name}` can be imported.\n"
+"\n"
+"Note that there is a module named `{name}` that is part of the\n"
+"Python standard library. However, it might not be available\n"
+"for your operating system, or it may to be installed separately.\n"
+msgstr "Mitään moduulia nimeltä `{name}` ei voi tuoda. Huomaa, että on olemassa moduuli nimeltä `{name}`, joka on osa Pythonin standardikirjastoa. Se ei kuitenkaan välttämättä ole saatavilla käyttöjärjestelmääsi, tai se on asennettava erikseen.\n"
+
+msgid ""
+"No module named `{name}` can be imported.\n"
+"Perhaps you need to install it.\n"
+msgstr "Mitään moduulia nimeltä `{name}` ei voida tuoda. Ehkä sinun täytyy asentaa se.\n"
+
+msgid ""
+"The following existing modules have names that are similar \n"
+"to the module you tried to import: `{names}`\n"
+msgstr "Seuraavilla olemassa olevilla moduuleilla on samankaltaiset nimet kuin moduulilla, jota yritit tuoda: `{names}`\n"
+
+msgid "`{name}` is an existing module that has a similar name.\n"
+msgstr "`{name}` on olemassa oleva moduuli, jolla on samanlainen nimi.\n"
+
+msgid "You are already using Python!"
+msgstr "Käytät jo Pythonia!"
+
+msgid ""
+"`{name}` is a name found in module `{mod}`.\n"
+"Perhaps you forgot to write\n"
+"\n"
+"    from {mod} import {name}\n"
+msgstr "`{name}` on nimi, joka löytyy moduulista `{mod}`. Ehkä unohdit kirjoittaa from {mod} import {name}.\n"
+
+msgid ""
+"`{name}` is a name found in the following modules:\n"
+"{modules}.\n"
+"Perhaps you forgot to import `{name}` from one of these modules.\n"
+msgstr "`{name}` on nimi, joka löytyy seuraavista moduuleista: {modules}. Ehkä olet unohtanut tuoda `{name}` jostain näistä moduuleista.\n"
+
+msgid ""
+"In your program, `{var_name}` is an unknown name\n"
+"that exists in an enclosing scope,\n"
+"but has not yet been assigned a value.\n"
+msgstr "Ohjelmassasi `{var_name}` on tuntematon nimi, joka on olemassa ympäröivässä laajuudessa, mutta jolle ei ole vielä annettu arvoa.\n"
+
+msgid "In your program, no object with the name `{var_name}` exists.\n"
+msgstr "Ohjelmassasi ei ole objektia nimellä `{var_name}`.\n"
+
+msgid " Or did you mean `{name}`?\n"
+msgstr " Vai tarkoititko `{name}`?\n"
+
+msgid "Did you use a colon instead of an equal sign?\n"
+msgstr "Käytitkö kaksoispistettä yhtäläisyysmerkin sijasta?\n"
+
+msgid "Perhaps you meant to write `{name}` and also forgot to import it.\n"
+msgstr "Ehkä sinun oli tarkoitus kirjoittaa `{name}` ja unohdit myös tuoda sen.\n"
+
+msgid "Did you mean `1j`?\n"
+msgstr "Tarkoititko `1j`?\n"
+
+msgid ""
+"However, sometimes `{name}` is intended to represent\n"
+"the square root of `-1` which is written as `1j` in Python.\n"
+msgstr "Joskus `{name}` on kuitenkin tarkoitettu edustamaan `-1`:n neliöjuurta, joka Pythonissa kirjoitetaan `1j`.\n"
+
+msgid "Did you mean `{word}`?\n"
+msgstr "Tarkoititko `{word}`?\n"
+
+msgid "I suspect you meant to write the keyword `{word}` and made a typo.\n"
+msgstr "Epäilen, että tarkoituksesi oli kirjoittaa avainsana `{word}` ja teit kirjoitusvirheen.\n"
+
+msgid "`__debug__` is a constant.\n"
+msgstr "`__debug__` on vakio.\n"
+
+msgid ""
+"`__debug__` is a constant that cannot be deleted.\n"
+"In future Python versions, attempting to delete it will be a SyntaxError.\n"
+msgstr "`__debug__` on vakio, jota ei voi poistaa. Tulevissa Python-versioissa sen poistaminen aiheuttaa SyntaxErrorin.\n"
+
+msgid "You must be a fan of PyConAu!\n"
+msgstr "Sinun täytyy olla PyConAun fani!\n"
+
+msgid ""
+"I am guessing that you tried to use (one of) the flipfloperators\n"
+"shown during the second Lightning Talk session of PyConAu 2018,\n"
+"but that you forgot to install the module from PyPI.\n"
+"\n"
+"#### Note that it is still a bad idea.\n"
+msgstr "Arvelen, että yritit käyttää (yhtä) PyConAu 2018:n toisen Lightning Talk -session aikana esiteltyjä flipfloperatoreita, mutta unohdit asentaa moduulin PyPI:stä. #### Huomaa, että se on silti huono idea.\n"
+
+msgid "Did you forget to import `{name}`?\n"
+msgstr "Unohditko tuoda `{name}`?\n"
+
+msgid ""
+"The name `{name}` is not defined in your program.\n"
+"Perhaps you forgot to import `{lowercase}` which is found\n"
+"in Python's standard library.\n"
+msgstr "Nimeä `{name}` ei ole määritelty ohjelmassasi. Ehkä unohdit tuoda `<{lowercase}`, joka löytyy Pythonin standardikirjastosta.\n"
+
+msgid "Note that the name of the module is `{lowercase}` and not `{name}`.\n"
+msgstr "Huomaa, että moduulin nimi on `{lowercase}` eikä `{name}`.\n"
+
+msgid ""
+"There is a module named `{name}` that is part of the\n"
+"Python standard library. However, it might not be available\n"
+"for your operating system, or it may to be installed separately.\n"
+msgstr "On olemassa moduuli nimeltä `{name}`, joka on osa Pythonin standardikirjastoa. Se ei kuitenkaan välttämättä ole saatavilla käyttöjärjestelmääsi, tai se on asennettava erikseen.\n"
+
+msgid ""
+"The name `{name}` is not defined in your program.\n"
+"Perhaps you forgot to import `{name}` which is a known library.\n"
+msgstr "Nimeä `{name}` ei ole määritelty ohjelmassasi. Ehkä unohdit tuoda `{name}`, joka on tunnettu kirjasto.\n"
+
+msgid "Did you forget to import `{true_name}`?\n"
+msgstr "Unohditko tuoda `{true_name}`?\n"
+
+msgid ""
+"The name `{name}` is not defined in your program.\n"
+"Perhaps you forgot to write\n"
+"\n"
+"    import {true_name} as {name}\n"
+msgstr "Nimeä `{name}` ei ole määritelty ohjelmassasi. Ehkä unohdit kirjoittaa import {true_name} as {name}.\n"
+
+msgid "The similar name `{name}` was found in the local scope.\n"
+msgstr "Samankaltainen nimi `{name}` löytyi paikallisesta alueesta.\n"
+
+msgid "The similar name `{name}` was found in the global scope.\n"
+msgstr "Samanlainen nimi `{name}` löytyi globaalista alueesta.\n"
+
+msgid "The Python builtin `{name}` has a similar name.\n"
+msgstr "Pythonin sisäänrakennetulla `{name}`:lla on samanlainen nimi.\n"
+
+msgid "Instead of writing `{name}`, perhaps you meant one of the following:\n"
+msgstr "Sen sijaan, että kirjoittaisit `{name}`, ehkä tarkoitit jotakin seuraavista:\n"
+
+msgid "*   Local scope: "
+msgstr "* Paikallinen soveltamisala: "
+
+msgid "*   Global scope: "
+msgstr "* Maailmanlaajuinen soveltamisala: "
+
+msgid "*   Python builtins: "
+msgstr "* Python builtins: "
+
+msgid "Did you write `self` at the wrong place?\n"
+msgstr "Kirjoititko `self` väärään kohtaan?\n"
+
+msgid ""
+"The {scope} object `{obj}`\n"
+"has an attribute named `{unknown_name}`.\n"
+"Perhaps you should have written `self.{unknown_name}(...`\n"
+"instead of `{unknown_name}(self, ...`.\n"
+msgstr "{scope}-objektilla `{obj}` on attribuutti nimeltä `{unknown_name}`. Ehkä sinun olisi pitänyt kirjoittaa `self.{unknown_name}(...` eikä `{unknown_name}(self, ...`.\n"
+
+msgid "Did you forget to add `self.`?\n"
+msgstr "Unohditko lisätä `self.`?\n"
+
+msgid ""
+"A {scope} object, `{obj}`,\n"
+"has an attribute named `{unknown_name}`.\n"
+"Perhaps you should have written `self.{unknown_name}`\n"
+"instead of `{unknown_name}`.\n"
+msgstr "{scope}-oliolla, `{obj}`, on attribuutti nimeltä `{unknown_name}`. Ehkä sinun olisi pitänyt kirjoittaa `self.{unknown_name}` eikä `{unknown_name}`.\n"
+
+msgid "Did you forget to add `{name}.`?\n"
+msgstr "Unohditko lisätä `{name}.`?\n"
+
+msgid ""
+"The {scope} object `{name}`\n"
+"has an attribute named `{unknown_name}`.\n"
+"Perhaps you should have written `{name}.{unknown_name}`\n"
+"instead of `{unknown_name}`.\n"
+msgstr "{scope}-objektilla `{name}` on attribuutti nimeltä `{unknown_name}`. Ehkä sinun olisi pitänyt kirjoittaa `{name}.{unknown_name}` eikä `{unknown_name}`.\n"
+
+msgid ""
+"I suspect that you are trying to connect to a server and\n"
+"that a connection cannot be made.\n"
+"\n"
+"If that is the case, check for typos in the URL\n"
+"and check your internet connectivity.\n"
+msgstr "Epäilen, että yrität muodostaa yhteyttä palvelimeen, mutta yhteyttä ei saada muodostettua. Jos näin on, tarkista, onko URL-osoitteessa kirjoitusvirheitä, ja tarkista internet-yhteys.\n"
+
+msgid "Perhaps you need to double the backslash characters.\n"
+msgstr "Ehkä sinun on kaksinkertaistettava backslash-merkit.\n"
+
+msgid ""
+"I suspect that you wrote a filename or path that contains\n"
+"at least one backslash character, `\\`.\n"
+"Python likely interpreted this as indicating the beginning of\n"
+"what is known as an escape sequence.\n"
+"To solve the problem, either write a so-called 'raw string'\n"
+"by adding the letter `r` as a prefix in\n"
+"front of the filename or path, or replace all single backslash\n"
+"characters, `\\`, by double ones: `\\\\`.\n"
+msgstr "Epäilen, että kirjoitit tiedostonimen tai polun, joka sisältää ainakin yhden backslash-merkin, `\\`. Python todennäköisesti tulkitsi tämän osoittavan niin sanotun escape-sekvenssin alkua. Voit ratkaista ongelman joko kirjoittamalla niin sanotun \"raakamerkin\" lisäämällä kirjaimen `r` etuliitteeksi tiedostonimen tai polun eteen tai korvaamalla kaikki yksittäiset backslash-merkit, `\\`, kaksoismerkeillä: `\\\\`.\n"
+
+msgid ""
+"While you were iterating over the items of `{name}` ({container_type})\n"
+"in a `{for_while}` loop, you either tried to add or remove items from it.\n"
+"Suggestion: start by making a copy of `{name}` and iterate over the items\n"
+"of that copy if you want to change `{name}` inside a loop.\n"
+"You might want to do this as follows:\n"
+"\n"
+"    my_{name} = {name}.copy()\n"
+"    for item in my_{name}:\n"
+"        # Change {name}\n"
+msgstr "Kun iteroit `{name}`:n ({container_type}) kohteita silmukassa `{for_while}`, yritit joko lisätä tai poistaa kohteita siitä. Ehdotus: aloita tekemällä kopio `{name}`:sta ja iteroi tämän kopion kohteita, jos haluat muuttaa `{name}`:a silmukan sisällä. Voit tehdä tämän seuraavasti: my_{name} = {name}.copy() for item in my_{name}: # Muuta {name}.\n"
+
+msgid ""
+"While you were iterating over the items of a container ({container_type})\n"
+"in a `{for_while}` loop, you either tried to add or remove items from it.\n"
+"Suggestion: start by making a copy of the container and iterate over the items\n"
+"of that copy if you want to change that container inside a loop.\n"
+msgstr "Kun iteroit säiliön ({container_type}) kohteita silmukassa `{for_while}`, yritit joko lisätä tai poistaa kohteita säiliöstä. Ehdotus: aloita tekemällä kopio säiliöstä ja iteroi kopion kohteita, jos haluat muuttaa säiliötä silmukan sisällä.\n"
+
+msgid "Did you forget to convert the string `{name}` into {number_type}?\n"
+msgstr "Unohditko muuntaa merkkijonon `{name}` muotoon {number_type}?\n"
+
+msgid "Perhaps you forgot to convert the string `{name}` into {number_type}.\n"
+msgstr "Ehkä unohdit muuntaa merkkijonon `{name}` muotoon {number_type}.\n"
+
+msgid "You cannot use complex numbers with the modulo operator `%`.\n"
+msgstr "Et voi käyttää kompleksilukuja modulo-operaattorin `%` kanssa.\n"
+
+msgid "The arguments of `divmod` must be integers (`int`) or real (`float`) numbers.\n"
+msgstr "Argumenttien `divmod` on oltava kokonaislukuja (`int`) tai reaalilukuja (`float`).\n"
+
+msgid "At least one of the arguments was a complex number.\n"
+msgstr "Ainakin yksi argumenteista oli kompleksiluku.\n"
+
+msgid "The second argument of the function `getattr()` must be a string.\n"
+msgstr "Funktion `getattr()` toisen argumentin on oltava merkkijono.\n"
+
+msgid "The second argument of the function `hasattr()` must be a string.\n"
+msgstr "Funktion `hasattr()` toisen argumentin on oltava merkkijono.\n"
+
+msgid "Some attribute of a function you called is expected to be a string.\n"
+msgstr "Jonkin kutsumasi funktion attribuutin odotetaan olevan merkkijono.\n"
+
+msgid ""
+"You tried to concatenate (add) two different types of objects:\n"
+"{first} and {second}.\n"
+msgstr "Yritit ketjuttaa (lisätä) kaksi erityyppistä objektia: {first} ja {second}.\n"
+
+msgid ""
+"You tried to add two incompatible types of objects:\n"
+"{first} and {second}.\n"
+msgstr "Yritit lisätä kaksi yhteensopimatonta objektityyppiä: {first} ja {second}.\n"
+
+msgid ""
+"You tried to subtract two incompatible types of objects:\n"
+"{first} and {second}.\n"
+msgstr "Yritit vähentää kaksi yhteensopimatonta objektityyppiä: {first} ja {second}.\n"
+
+msgid ""
+"You tried to multiply two incompatible types of objects:\n"
+"{first} and {second}.\n"
+msgstr "Yritit kertoa kaksi yhteensopimatonta objektityyppiä: {first} ja {second}.\n"
+
+msgid ""
+"You tried to divide two incompatible types of objects:\n"
+"{first} and {second}.\n"
+msgstr "Yritit jakaa kaksi yhteensopimatonta objektityyppiä: {first} ja {second}.\n"
+
+msgid ""
+"You tried to perform the bitwise operation {operator}\n"
+"on two incompatible types of objects:\n"
+"{first} and {second}.\n"
+msgstr "Yritit suorittaa bittioperaation {operator} kahdelle yhteensopimattomalle objektityypille: {first} ja {second}.\n"
+
+msgid "Did you mean `{line}`?\n"
+msgstr "Tarkoititko `{line}`?\n"
+
+msgid "Outside of Python, `^` is often used to indicate exponentiation.\n"
+msgstr "Pythonin ulkopuolella `^` käytetään usein osoittamaan eksponentointia.\n"
+
+msgid "Perhaps you meant `{line}`.\n"
+msgstr "Ehkä tarkoitit `{line}`.\n"
+
+msgid ""
+"You tried to perform the bit shifting operation {operator}\n"
+"on two incompatible types of objects:\n"
+"{first} and {second}.\n"
+msgstr "Yritit suorittaa bittisiirto-operaation {operator} kahdelle yhteensopimattomalle objektityypille: {first} ja {second}.\n"
+
+msgid ""
+"You tried to exponentiate (raise to a power)\n"
+"using two incompatible types of objects:\n"
+"{first} and {second}.\n"
+msgstr "Yritit potensoida (korottaa potenssiin) käyttämällä kahta yhteensopimatonta objektityyppiä: {first} ja {second}.\n"
+
+msgid ""
+"You tried to use the operator {operator}\n"
+"using two incompatible types of objects:\n"
+"{first} and {second}.\n"
+"This operator is normally used only\n"
+"for multiplication of matrices.\n"
+msgstr "Yritit käyttää operaattoria {operator} käyttäen kahta yhteensopimatonta objektityyppiä: {first} ja {second}. Tätä operaattoria käytetään yleensä vain matriisien kertomiseen.\n"
+
+msgid "Complex numbers cannot be ordered.\n"
+msgstr "Kompleksilukuja ei voi järjestää.\n"
+
+msgid ""
+"You tried to do an order comparison ({operator})\n"
+"between two complex numbers.\n"
+msgstr "Yritit tehdä järjestysvertailun ({operator}) kahden kompleksiluvun välillä.\n"
+
+msgid ""
+"You tried to do an order comparison ({operator})\n"
+"between two incompatible types of objects:\n"
+"{first} and {second}.\n"
+msgstr "Yritit tehdä järjestysvertailun ({operator}) kahden yhteensopimattoman objektityypin välillä: {first} ja {second}.\n"
+
+msgid ""
+"`{iter}` is an iterator. You likely needed to write something like\n"
+"\n"
+"    next({iter}())\n"
+"\n"
+"or use it in a `for` loop to get a number from it\n"
+"before comparing it to {number}.\n"
+msgstr "`{iter}` on iteraattori. Sinun täytyi todennäköisesti kirjoittaa jotain kuten next({iter}()) tai käyttää sitä `for`-silmukassa saadaksesi siitä numeron ennen sen vertaamista {number}:iin.\n"
+
+msgid "Perhaps you meant to write `{operator}=` instead of `={operator}`"
+msgstr "Ehkä sinun piti kirjoittaa `{operator}=` eikä `={operator}`"
+
+msgid ""
+"You tried to use the unary operator '{operator}'\n"
+"with the following type of object: {obj}.\n"
+"This operation is not defined for this type of object.\n"
+msgstr ""
+"Yritit käyttää unaarista operaattoria '{operator}' seuraavan tyyppisen objektin kanssa: {obj}.\n"
+"Tätä operaatiota ei ole määritelty tälle objektityypille.\n"
+
+msgid ""
+"In Python, some objects are known as immutable:\n"
+"once defined, their value cannot be changed.\n"
+"You tried change part of such an immutable object: {obj},\n"
+"most likely by using an indexing operation.\n"
+msgstr "Pythonissa joitakin objekteja kutsutaan muuttumattomiksi: kun ne on kerran määritelty, niiden arvoa ei voi muuttaa. Tällaisen muuttumattoman objektin osaa voi yrittää muuttaa: {obj}, todennäköisesti käyttämällä indeksointioperaatiota.\n"
+
+msgid "Did you mean to use a list?\n"
+msgstr "Tarkoititko käyttää luetteloa?\n"
+
+msgid "Perhaps you meant to use a list instead.\n"
+msgstr "Ehkä sinun piti käyttää luetteloa.\n"
+
+msgid ""
+"Exceptions must be derived from `BaseException`.\n"
+"It is recommended that user-defined exceptions derive from\n"
+"`Exception`, a subclass of `BaseException`.\n"
+msgstr "Virheiden on johdettava `BaseExceptionista`. On suositeltavaa, että käyttäjän määrittelemät virheet johdetaan `Exceptionista`, joka on `BaseExceptionin` aliluokka.\n"
+
+msgid "In an `except` statement, you must only have classes that derive from `BaseException`.\n"
+msgstr "`except`-lausekkeessa saa olla vain luokkia, jotka ovat johdannaisia `BaseExceptionista`.\n"
+
+msgid "The following is not a valid classes: `{not_exception}`.\n"
+msgstr "Seuraava ei ole kelvollinen luokka: `{not_exception}`.\n"
+
+msgid "The following are not valid classes: `{not_exception}`.\n"
+msgstr "Seuraavat luokat eivät ole kelvollisia: `{not_exception}`.\n"
+
+msgid ""
+"You apparently have called the function `{fn_name}` with\n"
+"{nb_given} positional argument(s) while it requires {nb_required}\n"
+"such positional argument(s).\n"
+msgstr "Olet ilmeisesti kutsunut funktiota `<{fn_name}` {nb_given}-asema-argumentilla (-argumenteilla), vaikka se vaatii {nb_required}-asema-argumentin (-argumentit).\n"
+
+msgid "Perhaps you forgot `self` when defining `{fn_name}`.\n"
+msgstr "Ehkä unohdit `self` määritellessäsi `{fn_name}`.\n"
+
+msgid ""
+"You apparently have called the function '{fn_name}' with\n"
+"fewer positional arguments than it requires ({nb_required} missing).\n"
+msgstr "Olet ilmeisesti kutsunut funktiota '{fn_name}' vähemmillä argumenteilla kuin se vaatii ({nb_required} puuttuu).\n"
+
+msgid ""
+"\n"
+"Note: `NoneType` means that the object has a value of `None`.\n"
+msgstr ""
+"\n"
+"Huomautus: `NoneType` tarkoittaa, että objektin arvo on `None`.\n"
+
+msgid ""
+"Python indicates that you have an object of type `{obj_type}`,\n"
+"followed by something surrounded by parentheses, `(...)`,\n"
+"which Python took as an indication of a function call.\n"
+"Either the object of type `{obj_type}` was meant to be a function,\n"
+"or you forgot a comma before `(...)`.\n"
+msgstr "Python ilmoittaa, että sinulla on objekti, jonka tyyppi on `{obj_type}`, jota seuraa sulkujen ympäröimä `(...)`, jonka Python otti osoitukseksi funktiokutsusta. Joko tyypin `{obj_type}` oli tarkoitus olla funktio, tai sitten unohdit pilkun ennen `(...)`.\n"
+
+msgid ""
+"The parenthesis `()` following `{obj_name}` are interpreted\n"
+"by Python as a function call for `{obj_name}`.\n"
+"However, `{obj_name}` is not a function but an object of type `{obj_type}`.\n"
+msgstr "Python tulkitsee `{obj_name}`:n perässä olevat sulkeet `()` funktiokutsuksi `{obj_name}`:lle. `{obj_name}` ei kuitenkaan ole funktio vaan objekti, jonka tyyppi on `{obj_type}`.\n"
+
+msgid ""
+"Because of the surrounding parenthesis, `{fn_call}` \n"
+"is interpreted by Python as indicating a function call for \n"
+"`{obj_name}`, which is an object of type `{obj_type}`\n"
+"which cannot be called.\n"
+"\n"
+msgstr "Ympäröivien sulkeiden vuoksi Python tulkitsee `{fn_call}`:n osoittavan funktiokutsua `{obj_name}`:lle, joka on tyyppiä `{obj_type}` oleva objekti, jota ei voi kutsua.\n"
+
+msgid ""
+"However, `{fn_call}` is a `tuple`.\n"
+"Either the object `{obj_name}` was meant to be a function\n"
+"or you have a missing comma between the object `{obj_name}`\n"
+"and the tuple `{fn_call}` and meant to write\n"
+"`{obj_name}, {fn_call}`.\n"
+msgstr "Kuitenkin `<{fn_call}` on `tuple`. Joko objektin `{obj_name}` oli tarkoitus olla funktio tai sitten objektin `{obj_name}` ja tuplen `<{fn_call}` väliltä puuttuu pilkku ja sinun piti kirjoittaa `{obj_name}, {fn_call}`.\n"
+
+msgid "Did you forget a comma between `{obj_name}` and `{fn_call}`?\n"
+msgstr "Unohditko pilkun `{obj_name}` ja `{fn_call}` väliin?\n"
+
+msgid ""
+"However, `{obj_name}` is a sequence.\n"
+"Perhaps you meant to use `[]` instead of `()` and write\n"
+"`{obj_name}[{slice}]`\n"
+msgstr "`{obj_name}` on kuitenkin sekvenssi. Ehkä sinun piti käyttää `[]` eikä `()` ja kirjoittaa `{obj_name}[{slice}]`.\n"
+
+msgid "Did you mean `{obj_name}[{slice}]`?\n"
+msgstr "Tarkoititko `{obj_name}[{slice}]`?\n"
+
+msgid ""
+"However, both `{obj_name}` and `{fn_call}` are numbers.\n"
+"Perhaps you forgot a multiplication operator, `*`,\n"
+"and meant to write `{obj_name} * {fn_call}`.\n"
+msgstr "Kuitenkin sekä `{obj_name}` että `{fn_call}` ovat numeroita. Ehkä unohdit kertolaskuoperaattorin `*` ja tarkoitit kirjoittaa `{obj_name} * {fn_call}`.\n"
+
+msgid "Did you mean `{obj_name} * {fn_call}`?\n"
+msgstr "Tarkoititko `{obj_name} * {fn_call}`?\n"
+
+msgid "Did you forget to convert `{name}` into an integer?\n"
+msgstr "Unohditko muuntaa `{name}` kokonaisluvuksi?\n"
+
+msgid "Perhaps you forgot to convert `{name}` into an integer.\n"
+msgstr "Ehkä unohdit muuntaa `{name}` kokonaisluvuksi.\n"
+
+msgid ""
+"You can only multiply sequences, such as list, tuples,\n"
+" strings, etc., by integers.\n"
+msgstr "Voit kertoa vain jaksoja, kuten listoja, tupleja, merkkijonoja jne., kokonaisluvuilla.\n"
+
+msgid "Did you forget to convert `{name1}` and `{name2}` into integers?\n"
+msgstr "Unohditko muuntaa `{name1}` ja `{name2}` kokonaisluvuiksi?\n"
+
+msgid "Perhaps you forgot to convert `{name1}` and `{name2}` into integers.\n"
+msgstr "Ehkä unohdit muuntaa `{name1}` ja `{name2}` kokonaisluvuiksi.\n"
+
+msgid "You wrote an object whose value is `None` where an integer was expected.\n"
+msgstr "Kirjoitit objektin, jonka arvo on `None`, kun odotettiin kokonaislukua.\n"
+
+msgid "You wrote an object of type `{obj}` where an integer was expected.\n"
+msgstr "Kirjoitit tyypin `{obj}` objektin, kun odotettiin kokonaislukua.\n"
+
+msgid "Did you forget to convert `{names}` into integers?\n"
+msgstr "Unohditko muuntaa `{names}` kokonaisluvuiksi?\n"
+
+msgid "Perhaps you forgot to convert `{names}` into integers."
+msgstr "Ehkä unohdit muuntaa `{names}` kokonaisluvuiksi."
+
+msgid ""
+"In the expression `{line}`\n"
+"what is included between the square brackets, `[...]`,\n"
+"must be either an integer or a slice\n"
+"(`start:stop` or `start:stop:step`) \n"
+"and you have used {obj_type} instead.\n"
+msgstr "Lausekkeessa `{line}` hakasulkujen välissä olevan `[...]` on oltava joko kokonaisluku tai viipale (`start:stop` tai `start:stop:step`), ja olet käyttänyt sen sijaan {obj_type}.\n"
+
+msgid ""
+"Note: sometimes this exception is raised because what Python\n"
+"interprets as indices was meant to be a separate list, and a comma\n"
+"should have been written before the opening `[` of that list.\n"
+msgstr "Huomautus: joskus tämä virhe aiheutuu, koska se, mitä Python tulkitsee indekseiksi, oli tarkoitettu erilliseksi listaksi, ja pilkku olisi pitänyt kirjoittaa ennen listan avaavaa `[`-merkkiä.\n"
+
+msgid "Did you forget a comma?\n"
+msgstr "Unohditko pilkun?\n"
+
+msgid ""
+"Perhaps you have forgotten a comma between two identical lists\n"
+"`{container}`. The second list had been interpreted as\n"
+"the indexation of the first one by the index `{new_index}`\n"
+msgstr "Ehkä olet unohtanut pilkun kahden samanlaisen listan `{container}` väliin. Toinen lista oli tulkittu ensimmäisen listan indeksoinniksi indeksillä `{new_index}`.\n"
+
+msgid ""
+"Perhaps you have forgotten a comma between the object `{container}`\n"
+"and the list `{index}`.  The list `{index}` had been interpreted as\n"
+"the indexation of object `{container}` by the index `{new_index}`\n"
+msgstr "Ehkä olet unohtanut pilkun objektin `{container}` ja luettelon `{index}` väliin.  Lista `{index}` oli tulkittu objektin `{container}` indeksoinniksi indeksillä `{new_index}`.\n"
+
+msgid "Did you forget a comma before `{index}`?\n"
+msgstr "Unohditko pilkun ennen `{index}`?\n"
+
+msgid ""
+"When using a slice to extract a range of elements\n"
+"from a sequence, that is something like\n"
+"`[start:stop]` or `[start:stop:step]`\n"
+"each of `start`, `stop`, `step` must be either an integer, `None`,\n"
+"or possibly some other object having an `__index__` method.\n"
+msgstr "Kun käytät viipaletta poimimaan elementtialuetta sarjasta, eli jotain sellaista kuin `[start:stop]` tai `[start:stop:step]`, jokaisen `start`, `stop` ja `step` täytyy olla joko kokonaisluku, `None` tai mahdollisesti jokin muu objekti, jolla on `__index__`-metodi.\n"
+
+msgid ""
+"Only hashable objects can be used\n"
+"as elements of `set` or keys of `dict`.\n"
+"Hashable objects are objects that do not change value\n"
+"once they have been created."
+msgstr "Ainoastaan hashable-olioita voidaan käyttää `set`:n elementteinä tai `dict`:n avaimina. Hashable-oliot ovat olioita, joiden arvo ei muutu sen jälkeen, kun ne on luotu."
+
+msgid "Instead of using {original}, consider using {replacement}.\n"
+msgstr "Harkitse {original}:n sijasta {replacement}:n käyttöä.\n"
+
+msgid ""
+"Subscriptable objects are typically containers from which\n"
+"you can retrieve item using the notation `[...]`.\n"
+msgstr "Subscriptable-objektit ovat tyypillisesti säiliöitä, joista voit hakea kohteen käyttämällä merkintää `[...]`.\n"
+
+msgid ""
+"Using this notation, you attempted to retrieve an item\n"
+"from an object of type `{obj_type}` which is not allowed.\n"
+msgstr "Tätä merkintätapaa käyttämällä yritit hakea kohteen tyypin `{obj_type}` objektista, mikä ei ole sallittua.\n"
+
+msgid "Perhaps you meant to write `{line}`.\n"
+msgstr "Ehkä sinun piti kirjoittaa `{line}`.\n"
+
+msgid ""
+"Using this notation, you attempted to retrieve an item\n"
+"from `{name}`, an object of type `{obj_type}`. This is not allowed.\n"
+msgstr "Tätä merkintätapaa käyttäen yritit hakea kohteen `{name}`, joka on tyyppiä `{obj_type}`. Tämä ei ole sallittua.\n"
+
+msgid ""
+"An iterable is an object capable of returning its members one at a time.\n"
+"Python containers (`list, tuple, dict`, etc.) are iterables.\n"
+"'{obj_name}' is not a container. A container is required here.\n"
+msgstr "Iteroituva objekti on objekti, joka pystyy palauttamaan jäsenensä yksi kerrallaan. Python-kontit (`list, tuple, dict` jne.) ovat iteroituvia objekteja. '{obj_name}' ei ole kontti. Tässä tarvitaan kontti.\n"
+
+msgid ""
+"An iterable is an object capable of returning its members one at a time.\n"
+"Python containers (`list, tuple, dict`, etc.) are iterables.\n"
+"An iterable is required here.\n"
+msgstr "Iteroituva objekti on objekti, joka pystyy palauttamaan jäsenensä yksi kerrallaan. Python-kontit (`list, tuple, dict` jne.) ovat iteroituvia objekteja. Tässä tarvitaan iteroituva objekti.\n"
+
+msgid ""
+"Unpacking is a convenient way to assign a name,\n"
+"to each item of an iterable.\n"
+msgstr "Pakkauksen purkaminen on kätevä tapa antaa nimi jokaiselle iterable-olion elementille.\n"
+
+msgid ""
+"An iterable is an object capable of returning its members one at a time.\n"
+"Python containers (`list, tuple, dict`, etc.) are iterables,\n"
+"but not objects of type `{obj_type}`.\n"
+msgstr "Iteroituva objekti on objekti, joka pystyy palauttamaan jäsenensä yksi kerrallaan. Python-kontit (`list, tuple, dict` jne.) ovat iteroituvia objekteja, mutta eivät objekteja, joiden tyyppi on `{obj_type}`.\n"
+
+msgid ""
+"{function} does not accept a sequence as an argument.\n"
+"Instead of writing `{line}`\n"
+"perhaps you should use the `dict.fromkeys()` method: `{new_line}`.\n"
+msgstr "{function} ei hyväksy sarjaa argumenttina. Sen sijaan, että kirjoittaisit `{line}`, ehkä sinun pitäisi käyttää `dict.fromkeys()`-metodia: `{new_line}`.\n"
+
+msgid "Perhaps you need to use the `dict.fromkeys()` method.\n"
+msgstr "Ehkä sinun on käytettävä `dict.fromkeys()`-menetelmää.\n"
+
+msgid "Did you forget to call `{name}`?\n"
+msgstr "Unohditko kutsua `{name}`?\n"
+
+msgid ""
+"I suspect that you forgot to add parentheses to call `{name}`.\n"
+"You might have meant to write:\n"
+"`{line}`\n"
+msgstr "Epäilen, että unohdit lisätä sulkeet kutsuun `{name}`. Olisit ehkä tarkoittanut kirjoittaa: `{line}`.\n"
+
+msgid ""
+"The function `vars` is used to list the content of the\n"
+"`__dict__` attribute of an object.\n"
+msgstr "Funktiota `vars` käytetään objektin `__dict__`-attribuutin sisällön listaamiseen.\n"
+
+msgid "Object `{name}` uses `__slots__` instead of `__dict__`.\n"
+msgstr "Objekti `{name}` käyttää `__slots__` eikä `__dict__`.\n"
+
+msgid "`{name}`, the argument of `vars`, is an object without such an attribute.\n"
+msgstr "`{name}`, argumentti `vars`, on objekti, jolla ei ole tällaista attribuuttia.\n"
+
+msgid ""
+"You have specified the value of argument `{argument}` more than once\n"
+"when calling the function named `{function}`.\n"
+msgstr "Olet antanut argumentin `{argument}` arvon useammin kuin kerran kutsuessasi funktiota nimeltä `{function}`.\n"
+
+msgid "This function has only one argument: `{arguments}`\n"
+msgstr "Tällä funktiolla on vain yksi argumentti: `{arguments}``\n"
+
+msgid ""
+"This function has the following arguments:\n"
+"`{arguments}`\n"
+msgstr "Tällä funktiolla on seuraavat argumentit: `{arguments}``\n"
+
+msgid ""
+"I am guessing that you were trying to count the number of elements\n"
+"produced by a generator expression. You first need to capture them\n"
+"in a list:\n"
+"\n"
+msgstr "Oletan, että yritit laskea generaattorilausekkeen tuottamien elementtien määrän. Sinun on ensin kerättävä ne luetteloon:\n"
+
+msgid "You likely need to build a list first.\n"
+msgstr "Sinun on todennäköisesti ensin luotava lista.\n"
+
+msgid ""
+"You are attempting to subclass a module.\n"
+"You likely forgot to import a class from that module.\n"
+msgstr "Yrität käyttää aliluokkaa moduulissa. Olet todennäköisesti unohtanut tuoda luokan kyseisestä moduulista.\n"
+
+msgid "Did you mean `{new_line}`?\n"
+msgstr "Tarkoititko `{new_line}`?\n"
+
+msgid ""
+"You are attempting to subclass the module `{mod_name}`.\n"
+"Perhaps you meant:\n"
+"\n"
+"    {new_line}\n"
+"        ...\n"
+"\n"
+msgstr "Yrität alaluokittaa moduulin `{mod_name}`. Ehkä tarkoitit: {new_line} ...\n"
+
+msgid "`{name}` is a `GenericAlias` used for type annotations.\n"
+msgstr "`{name}` on `GenericAlias`, jota käytetään tyyppimerkinnöissä.\n"
+
+msgid ""
+"You're trying to use the name `{name}` identified by Python as being\n"
+"in the local scope of a function before having assigned it a value.\n"
+msgstr "Yrität käyttää nimeä `{name}`, jonka Python on tunnistanut olevan funktion paikallisella alueella ennen kuin sille on annettu arvo.\n"
+
+msgid ""
+"The name `{var_name}` exists in both the global and nonlocal scope.\n"
+"This can be rather confusing and is not recommended.\n"
+"Depending on which variable you wanted to refer to, you needed to add either\n"
+"\n"
+"    global {var_name}\n"
+"\n"
+"or\n"
+"\n"
+"    nonlocal {var_name}\n"
+"\n"
+"as the first line inside your function.\n"
+msgstr "Nimi `{var_name}` on olemassa sekä globaalissa että ei-lokaalisessa laajuudessa. Tämä voi olla melko sekavaa, eikä sitä suositella. Riippuen siitä, kumpaan muuttujaan halusit viitata, sinun piti lisätä joko globaali {var_name} tai ei-lokaali {var_name} ensimmäiseksi riviksi funktiosi sisällä.\n"
+
+msgid ""
+"Did you forget to add either `global {var_name}` or \n"
+"`nonlocal {var_name}`?\n"
+msgstr "Unohditko lisätä joko `global {var_name}` tai `nonlocal {var_name}`?\n"
+
+msgid ""
+"`{name}` is a Python builtin function.\n"
+"You have tried to assign a value to `{name}` inside a function\n"
+"while also using its original meaning in the function.\n"
+"\n"
+"Note that it is generally not a good idea to give a local variable\n"
+"the same name as a Python builtin function (like `{name}`).\n"
+msgstr "`{name}` on Pythonin sisäänrakennettu funktio. Olet yrittänyt antaa arvon `{name}`:lle funktiossa ja samalla käyttää sen alkuperäistä merkitystä funktiossa. Huomaa, että yleensä ei ole hyvä idea antaa paikalliselle muuttujalle samaa nimeä kuin Pythonin sisäänrakennetulle funktiolle (kuten `{name}`).\n"
+
+msgid ""
+"The name `{var_name}` exists in the {scope} scope.\n"
+"Perhaps the statement\n"
+"\n"
+"    {scope} {var_name}\n"
+"\n"
+"should have been included as the first line inside your function.\n"
+msgstr "Nimi `{var_name}` on olemassa {scope}-alueella. Ehkä lauseke {scope} {var_name} olisi pitänyt sisällyttää ensimmäiseksi riviksi funktiosi sisälle.\n"
+
+msgid "Did you forget to add `{scope} {var_name}`?\n"
+msgstr "Unohditko lisätä `{scope} {var_name}`?\n"
+
+msgid "The similar name `{name}` was found in the local scope. "
+msgstr "Samankaltainen nimi `{name}` löytyi paikallisesta alueesta. "
+
+msgid ""
+"In this instance, there are more names ({nb_names})\n"
+"than {length}, the length of the iterable.\n"
+msgstr "Tässä tapauksessa nimiä ({nb_names}) on enemmän kuin {length}, iteratiivin pituus.\n"
+
+msgid ""
+"In this instance, there are more names ({nb_names})\n"
+"than the length of the iterable, {iter_type} of length {length}.\n"
+msgstr "Tässä tapauksessa nimiä ({nb_names}) on enemmän kuin iteroitavan {iter_type}:n pituus {length}.\n"
+
+msgid ""
+"In this instance, there are fewer names ({nb_names})\n"
+"than the length of the iterable.\n"
+msgstr "Tässä tapauksessa nimiä ({nb_names}) on vähemmän kuin iterable-taulukon pituus.\n"
+
+msgid ""
+"In this instance, there are fewer names ({nb_names})\n"
+"than the length of the iterable, {iter_type} of length {length}.\n"
+msgstr "Tässä tapauksessa nimiä ({nb_names}) on vähemmän kuin iteroitavan {iter_type}:n pituus {length}.\n"
+
+msgid ""
+"`int()` expects an argument that looks like a number in base `{base}`\n"
+"but you gave it an empty string.\n"
+msgstr "`int()` odottaa argumenttia, joka näyttää luvulta peruskokoonpanossa `{base}`, mutta annoit sille tyhjän merkkijonon.\n"
+
+msgid "`{value}` is an invalid argument for `int()` in base `{base}`.\n"
+msgstr "`<{value}` on virheellinen argumentti `int()`:lle `{base}`-perustassa `{base}`.\n"
+
+msgid "The following characters are not allowed: `{invalid}`.\n"
+msgstr "Seuraavat merkit eivät ole sallittuja: `<{invalid}`.\n"
+
+msgid ""
+"When base `0` is specified, `int()` expects the argument\n"
+"to be an integer literal, written in\n"
+"base 2 (`0b...`), 8 (`0o...`), 10, or 16 (`0x...`).\n"
+msgstr "Kun perusta `0` on määritetty, `int()` odottaa argumentin olevan kokonaislukuliite, joka on kirjoitettu peruslukuna 2 (`0b...`), 8 (`0o...`), 10 tai 16 (`0x...`).\n"
+
+msgid ""
+"In base `{base}`, `int()` is most often use to convert a string\n"
+"containing the digits `0` to `{max_n}` into an integer.\n"
+msgstr "Perusmuodossa `{base}`, `int()` käytetään useimmiten muuntamaan numeroita `0` - `{max_n}` sisältävä merkkijono kokonaisluvuksi.\n"
+
+msgid ""
+"In base `11`, `int()` is most often use to convert a string\n"
+"containing the digits `0` to `9` and the letter `'a'` into an integer.\n"
+msgstr "Peruslukua `11` käytettäessä `int()` käytetään useimmiten muuntamaan merkkijono, joka sisältää numerot `0` - `9` ja kirjaimen `'a`, kokonaisluvuksi.\n"
+
+msgid ""
+"In base `base`, `int()` is most often use to convert a string\n"
+"containing the digits `0` to `9` and the letters\n"
+"from `'a'` to `'{max_n}'` into an integer.\n"
+msgstr "Perusmuodossa `base`, `int()` käytetään useimmiten muuntamaan merkkijono, joka sisältää numerot `0` - `9` ja kirjaimet `'a'` - `'{max_n}'`, kokonaisluvuksi.\n"
+
+msgid "You need to convert `'{value}'` to a float first.\n"
+msgstr "Sinun on ensin muunnettava `'{value}'` floatiksi.\n"
+
+msgid ""
+"The string `'{value}'` needs to be first converted using `float()`\n"
+"before the result can be converted into an integer using `int()`.\n"
+msgstr "Merkkijono `'{value}'` on ensin muunnettava käyttäen `float()` ennen kuin tulos voidaan muuntaa kokonaisluvuksi käyttäen `int()`.\n"
+
+msgid ""
+"The argument `base` of `int()` must be either zero\n"
+"or any integer from 2 to 36.\n"
+msgstr "`int()`:n argumentin `base` on oltava joko nolla tai mikä tahansa kokonaisluku välillä 2-36.\n"
+
+msgid "You wrote {base} which is not allowed.\n"
+msgstr "Kirjoitit {base}, mikä ei ole sallittua.\n"
+
+msgid "Did you specify an invalid month?\n"
+msgstr "Määrititkö virheellisen kuukauden?\n"
+
+msgid ""
+"I am guessing that you specify an invalid value for a month\n"
+"in a `date` object. Valid values are integers, from 1 to 12.\n"
+msgstr "Oletan, että olet määrittänyt `päivämäärä`-objektiin kuukauden virheellisen arvon. Kelvolliset arvot ovat kokonaislukuja 1-12.\n"
+
+msgid ""
+"The string `{string}` cannot be converted to a `float`\n"
+"as it does not represent a number.\n"
+msgstr "Merkkijonoa `{string}` ei voida muuntaa `floatiksi`, koska se ei edusta numeroa.\n"
+
+msgid ""
+"The name `{var}` is used both as the name of a class variable\n"
+"and as a string item in the class `__slots__`;\n"
+"this is not allowed.\n"
+msgstr "Nimeä `{var}` käytetään sekä luokkamuuttujan nimenä että merkkijonoelementtinä luokassa `__slots__`; tämä ei ole sallittua.\n"
+
+msgid "The third argument of the function `pow()` cannot be zero.\n"
+msgstr "Funktion `pow()` kolmas argumentti ei voi olla nolla.\n"
+
+msgid ""
+"I do not recognize this error message.\n"
+"I am guessing that the problem is with the function `{name}`.\n"
+msgstr "En tunnista tätä virheilmoitusta, ja arvelen, että ongelma on funktiossa `{name}`.\n"
+
+msgid ""
+"Its docstring is:\n"
+"\n"
+"{docstring}\n"
+msgstr "Sen docstring on seuraava: {docstring}\n"
+
+msgid "I have no more information.\n"
+msgstr "Minulla ei ole enempää tietoa.\n"
+
+msgid ""
+"The value you gave for the time is not in the format you specified.\n"
+"Make sure to use the same separator between items\n"
+"(for example, between day and month) and keep the order the same\n"
+"in both the data provided and the format you specified.\n"
+"The following table might be useful:\n"
+"https://docs.python.org/3/library/time.html#time.strftime\n"
+"The following site might also be useful: https://www.strfti.me/\n"
+msgstr "Kellonajalle antamasi arvo ei ole määrittämässäsi muodossa. Varmista, että käytät samaa erotinta kohtien välillä (esimerkiksi päivän ja kuukauden välillä) ja pidät järjestyksen samana sekä annetuissa tiedoissa että määrittämässäsi muodossa. Seuraava taulukko voi olla hyödyllinen: https://docs.python.org/3/library/time.html#time.strftime Myös seuraava sivusto voi olla hyödyllinen: https://www.strfti.me/.\n"
+
+msgid ""
+"You have attempted to remove `{item}` from the list `{the_list}`.\n"
+"However, `{the_list}` does not contain `{item}`.\n"
+msgstr "Olet yrittänyt poistaa `{item}` luettelosta `{the_list}`. `{the_list}` ei kuitenkaan sisällä `{item}`.\n"
+
+msgid ""
+"You have attempted to remove an item from the list `{the_list}`.\n"
+"However, `{the_list}` does not contain that item.\n"
+msgstr "Olet yrittänyt poistaa kohteen luettelosta `{the_list}`. `{the_list}` ei kuitenkaan sisällä kyseistä kohdetta.\n"
+
+msgid "You have attempted to remove an item a list that does not contain such an item.\n"
+msgstr "Olet yrittänyt poistaa kohteen luettelosta, joka ei sisällä tällaista kohdetta.\n"
+
+msgid ""
+"An explanation of `{exception}` already exists.\n"
+"If you think that a better explanation can be given, please file an issue.\n"
+msgstr "Selitys sanalle `{exception}` on jo olemassa. Jos uskot, että parempi selitys voidaan antaa, jätä ongelma.\n"
+
+msgid "Using the modulo operator, `%`, you are dividing by zero.\n"
+msgstr "Modulo-operaattorilla `%` jaat nollalla.\n"
+
+msgid "You are dividing by zero.\n"
+msgstr "Jaat nollalla.\n"
+
+msgid ""
+"You are dividing by the following term\n"
+"\n"
+"    {expression}\n"
+"\n"
+"which is equal to zero.\n"
+msgstr "Jaat seuraavalla termillä {expression}, joka on nolla.\n"
+
+msgid "<'expression not found'>"
+msgstr "<'expression not found'>"
+
+msgid ""
+"The following mathematical expression includes a division by zero:\n"
+"\n"
+"    {expression}\n"
+msgstr "Seuraava matemaattinen lauseke sisältää jakamisen nollalla: {expression}\n"
+
+msgid ""
+"Using the modulo operator, `%`, you are dividing by the following term\n"
+"\n"
+"    {expression}\n"
+"\n"
+"which is equal to zero.\n"
+msgstr "Käyttämällä modulo-operaattoria, `%`, jaat seuraavalla termillä {expression}, joka on nolla.\n"
+
+msgid "The second argument of the `divmod()` function is zero.\n"
+msgstr "Funktion `divmod()` toinen argumentti on nolla.\n"
+
+msgid ""
+"You are attempting to raise the number 0 to a negative power\n"
+"which is equivalent to dividing by zero.\n"
+msgstr "Yrität nostaa luvun 0 negatiiviseen potenssiin, mikä vastaa jakamista nollalla.\n"
+
+msgid ""
+"The following mathematical expression includes a division by zero\n"
+"done using the modulo operator:\n"
+"\n"
+"    {expression}\n"
+msgstr "Seuraava matemaattinen lauseke sisältää nollalla jakamisen modulo-operaattorin avulla: {expression}\n"
+
+msgid "The second argument of the `divmod()` function is equal to zero.\n"
+msgstr "Funktion `divmod()` toinen argumentti on nolla.\n"
+
+msgid ""
+"Currently, I cannot guess the likely cause of this error.\n"
+"Try to examine closely the line indicated as well as the line\n"
+"immediately above to see if you can identify some misspelled\n"
+"word, or missing symbols, like (, ), [, ], :, etc.\n"
+"\n"
+"Unless your code uses type annotations, which are beyond our scope,\n"
+"if you think that this is something which should be handled\n"
+"by friendly, please report this case to\n"
+"https://github.com/friendly-traceback/friendly-traceback/issues\n"
+"\n"
+msgstr "Tällä hetkellä en pysty arvaamaan tämän virheen todennäköistä syytä. Yritä tutkia tarkkaan merkittyä riviä sekä välittömästi sen yläpuolella olevaa riviä ja katso, voitko tunnistaa jonkin väärin kirjoitetun sanan tai puuttuvia symboleja, kuten (, ), [, ], : jne. Ellei koodissasi käytetä tyyppihuomautuksia, jotka eivät kuulu toimialueemme piiriin, jos luulet, että tämä on asia, joka pitäisi käsitellä friendly-ohjelmalla, ilmoita tästä tapauksesta osoitteeseen https://github.com/friendly-traceback/friendly-traceback/issues.\n"
+
+msgid ""
+"Python told us that it expected a colon at the position indicated.\n"
+"However, adding a colon or replacing something else by a colon\n"
+"would not fix the problem.\n"
+msgstr "Python kertoi meille, että se odotti kaksoispisteen olevan osoitetussa kohdassa. Kaksoispisteen lisääminen tai jonkin muun kohdan korvaaminen kaksoispisteellä ei kuitenkaan korjaisi ongelmaa.\n"
+
+msgid ""
+"Python gave us the following informative message\n"
+"about the possible cause of the error:\n"
+"\n"
+"    {message}\n"
+"\n"
+"However, I do not recognize this information and I have\n"
+"to guess what caused the problem, but I might be wrong.\n"
+"\n"
+msgstr "Python antoi meille seuraavan informatiivisen viestin mahdollisesta virheen syystä: {message} En kuitenkaan tunnista tätä tietoa, ja minun on arvattava, mikä aiheutti ongelman, mutta saatan olla väärässä.\n"
+
+msgid ""
+"However, making such a change would still not correct\n"
+"all the syntax errors in the code you wrote.\n"
+msgstr "Tällainen muutos ei kuitenkaan korjaisi kaikkia kirjoittamasi koodin syntaksivirheitä.\n"
+
+msgid ""
+"The correct syntax is:\n"
+"\n"
+"    {async_}def name ( ... ):"
+msgstr "Oikea syntaksi on: {async_}def name ( ... ):"
+
+msgid "A function needs a name.\n"
+msgstr "Funktio tarvitsee nimen.\n"
+
+msgid "You tried to define a function and did not use the correct syntax.\n"
+msgstr "Yritit määritellä funktion etkä käyttänyt oikeaa syntaksia.\n"
+
+msgid "Functions and methods need a name.\n"
+msgstr "Funktiot ja metodit tarvitsevat nimen.\n"
+
+msgid "You tried to define a function or method and did not use the correct syntax.\n"
+msgstr "Yritit määritellä funktiota tai metodia etkä käyttänyt oikeaa syntaksia.\n"
+
+msgid "Did you forget parentheses?\n"
+msgstr "Unohditko sulkeet?\n"
+
+msgid ""
+"Perhaps you forgot to include parentheses.\n"
+"You might have meant to write\n"
+"\n"
+"    {line}\n"
+msgstr "Ehkä unohdit laittaa sulut. Olisit ehkä halunnut kirjoittaa {line}.\n"
+
+msgid "A function definition statement must end with a colon.\n"
+msgstr "Funktion määrittelylausekkeen on päätyttävä kaksoispisteeseen.\n"
+
+msgid "Did you forget to write a colon?\n"
+msgstr "Unohditko kirjoittaa kaksoispisteen?\n"
+
+msgid "You wrote `{bad}` instead of a colon.\n"
+msgstr "Kirjoitit `{bad}` kaksoispisteen sijasta.\n"
+
+msgid "Did you write something by mistake after the colon?\n"
+msgstr "Kirjoititko vahingossa jotain kaksoispisteen jälkeen?\n"
+
+msgid "A block of code must come after the colon.\n"
+msgstr "Koodilohkon on tultava kaksoispisteen jälkeen.\n"
+
+msgid "Removing `{bad}`, might fix the problem.\n"
+msgstr "`{bad}` poistaminen saattaa korjata ongelman.\n"
+
+msgid "You cannot use a Python keyword as a function name.\n"
+msgstr "Python-avainsanaa ei voi käyttää funktion nimenä.\n"
+
+msgid "You tried to use the Python keyword `{kwd}` as a function name.\n"
+msgstr "Yritit käyttää Pythonin avainsanaa `{kwd}` funktion nimenä.\n"
+
+msgid "There are more syntax errors later in your code.\n"
+msgstr "Koodissasi on lisää syntaksivirheitä myöhemmin.\n"
+
+msgid "You wrote an invalid function name.\n"
+msgstr "Kirjoitit virheellisen funktion nimen.\n"
+
+msgid ""
+"The name of a function must be a valid Python identifier,\n"
+"that is a name that begins with a letter or an underscore character, `_`,\n"
+"and which contains only letters, digits or the underscore character.\n"
+msgstr "Funktion nimen on oltava kelvollinen Python-tunniste, eli nimi, joka alkaa kirjaimella tai alleviivausmerkillä `_` ja joka sisältää vain kirjaimia, numeroita tai alleviivausmerkkejä.\n"
+
+msgid "You attempted to use a string as a function name.\n"
+msgstr "Yritit käyttää merkkijonoa funktion nimenä.\n"
+
+msgid "You forgot to name your function.\n"
+msgstr "Unohdit nimetä funktiosi.\n"
+
+msgid "However, there are some other syntax errors in your code.\n"
+msgstr "Koodissasi on kuitenkin joitakin muita syntaksivirheitä.\n"
+
+msgid ""
+"I am guessing that you tried to use the Python keyword\n"
+"`{kwd}` as an argument in the definition of a function\n"
+"where an identifier (variable name) was expected.\n"
+msgstr "Arvelen, että yritit käyttää Pythonin avainsanaa `{kwd}` argumenttina funktion määrittelyssä, jossa odotettiin tunnusta (muuttujan nimeä).\n"
+
+msgid "You cannot use dotted names as function arguments.\n"
+msgstr "Et voi käyttää pistemäisiä nimiä funktion argumentteina.\n"
+
+msgid "Perhaps you meant to write a comma.\n"
+msgstr "Ehkä sinun piti kirjoittaa pilkku.\n"
+
+msgid "Did you mean to write a comma?\n"
+msgstr "Oliko sinun tarkoitus kirjoittaa pilkku?\n"
+
+msgid "You cannot use dots in function names.\n"
+msgstr "Toimintojen nimissä ei voi käyttää pisteitä.\n"
+
+msgid ""
+"`/` indicates that the previous arguments in a function definition\n"
+"are positional arguments.\n"
+msgstr "`/` osoittaa, että funktion määrittelyn edelliset argumentit ovat sijaintiargumentteja.\n"
+
+msgid "Function definitions cannot include the symbol `/` in this Python version.\n"
+msgstr "Tässä Python-versiossa funktiomäärittelyissä ei voi olla symbolia `/`.\n"
+
+msgid ""
+"This symbol can only be used with Python versions 3.8.0 or newer.\n"
+"You are using Python version {version}.\n"
+msgstr "Tätä symbolia voi käyttää vain Python-versioiden 3.8.0 tai uudempien kanssa. Käytät Python-versiota {version}.\n"
+
+msgid ""
+"You have unspecified keyword arguments that appear before\n"
+"the symbol `/`.\n"
+msgstr "Sinulla on määrittelemättömiä avainsana-argumentteja, jotka esiintyvät ennen symbolia `/`.\n"
+
+msgid "Keyword arguments must appear after the `/` symbol.\n"
+msgstr "Avainsana-argumenttien on oltava `/`-symbolin jälkeen.\n"
+
+msgid ""
+"However, `*` indicates that the arguments\n"
+"that follow must be keyword arguments.\n"
+"When they are used together, `/` must appear before `*`.\n"
+msgstr "Kuitenkin `*` osoittaa, että seuraavien argumenttien on oltava avainsana-argumentteja. Kun niitä käytetään yhdessä, `/` on oltava ennen `*`.\n"
+
+msgid "`*` must appear after `/` in a function definition.\n"
+msgstr "`*` on oltava funktiomäärittelyssä `/`:n jälkeen.\n"
+
+msgid "`*{name}` must appear after `/` in a function definition.\n"
+msgstr "`*{name}`:n on oltava funktion määrittelyssä `/` jälkeen.\n"
+
+msgid "You can only use `/` once in a function definition.\n"
+msgstr "Voit käyttää `/` vain kerran funktion määritelmässä.\n"
+
+msgid "You can only use `*` once in a function definition.\n"
+msgstr "Voit käyttää `*` vain kerran funktion määritelmässä.\n"
+
+msgid "You have used it twice, with `*{first}` and `*{second}`.\n"
+msgstr "Olet käyttänyt sitä kahdesti, `*{first}` ja `*{second}` kanssa.\n"
+
+msgid ""
+"It must either be used by itself, `*`,\n"
+"or in the form `*{args}`, but not both.\n"
+msgstr "Sitä on käytettävä joko yksinään, `*`, tai muodossa `*{args}`, mutta ei molempia.\n"
+
+msgid "`*{args}` must appear before `**{kwargs}`.\n"
+msgstr "`*{args}` on oltava ennen `**{kwargs}`.\n"
+
+msgid "`**{kwargs}` must appear after the `*` operator.\n"
+msgstr "`**{kwargs}` on oltava `*`-operaattorin jälkeen.\n"
+
+msgid "You cannot use numbers as function arguments.\n"
+msgstr "Numeroita ei voi käyttää funktion argumentteina.\n"
+
+msgid ""
+"You used a number as an argument when defining a function.\n"
+"You can only use identifiers (variable names) as function arguments.\n"
+msgstr "Käytit numeroa argumenttina funktiota määritettäessä. Voit käyttää funktion argumentteina vain tunnuksia (muuttujien nimiä).\n"
+
+msgid "You cannot use strings as function arguments.\n"
+msgstr "Et voi käyttää merkkijonoja funktion argumentteina.\n"
+
+msgid ""
+"You used a string as an argument when defining a function.\n"
+"You can only use identifiers (variable names) as function arguments.\n"
+msgstr "Käytit merkkijonoa argumenttina funktiota määrittäessäsi. Voit käyttää funktion argumentteina vain tunnuksia (muuttujien nimiä).\n"
+
+msgid "You cannot have explicit tuples as function arguments.\n"
+msgstr "Funktion argumentteina ei voi olla eksplisiittisiä tupleja.\n"
+
+msgid ""
+"You can only use identifiers (variable names) as function arguments.\n"
+"Assign any tuple to a parameter and unpack it\n"
+"within the body of the function.\n"
+msgstr "Voit käyttää funktion argumentteina vain tunnuksia (muuttujien nimiä). Määritä mikä tahansa tuple parametriksi ja purkaa se funktion rungossa.\n"
+
+msgid "You cannot have explicit lists as function arguments.\n"
+msgstr "Funktioiden argumentteina ei voi olla eksplisiittisiä luetteloita.\n"
+
+msgid "You can only use identifiers (variable names) as function arguments.\n"
+msgstr "Voit käyttää funktion argumentteina vain tunnuksia (muuttujien nimiä).\n"
+
+msgid "You cannot have any explicit dict or set as function arguments.\n"
+msgstr "Funktion argumentteina ei voi olla mitään nimenomaisia dict- tai set-olioita.\n"
+
+msgid "You cannot have operators as function arguments.\n"
+msgstr "Operaattoreita ei voi käyttää funktion argumentteina.\n"
+
+msgid ""
+"I suspect you made a typo and wrote `{op}` instead of a comma.\n"
+"The following statement contains no syntax error:\n"
+"\n"
+"    {new_statement}"
+msgstr "Epäilen, että olet tehnyt kirjoitusvirheen ja kirjoittanut `{op}` pilkun sijasta. Seuraava lauseke ei sisällä syntaksivirhettä: {new_statement}"
+
+msgid "Did you mean to write an equal sign?\n"
+msgstr "Tarkoititko kirjoittaa yhtäläisyysmerkin?\n"
+
+msgid ""
+"I suspect you made a typo and wrote `{op}` instead of an equal sign.\n"
+"The following statement contains no syntax error:\n"
+"\n"
+"    {new_statement}"
+msgstr "Epäilen, että teit kirjoitusvirheen ja kirjoitit `{op}` yhtäläisyysmerkin sijasta. Seuraava lauseke ei sisällä syntaksivirhettä: {new_statement}"
+
+msgid "Did you mean to write `{op}`?\n"
+msgstr "Tarkoititko kirjoittaa `{op}`?\n"
+
+msgid ""
+"I suspect you made a typo and added `{op}` by mistake.\n"
+"The following statement contains no syntax error:\n"
+"\n"
+"    {new_statement}"
+msgstr "Epäilen, että olet tehnyt kirjoitusvirheen ja lisännyt `{op}` vahingossa. Seuraava lauseke ei sisällä syntaksivirhettä: {new_statement}"
+
+msgid "You cannot use `{op}` as an argument.\n"
+msgstr "Et voi käyttää `{op}` argumenttina.\n"
+
+msgid ""
+"I suspect you made a typo and wrote `{op}` by mistake.\n"
+"If you replace it by a unique variable name, the result\n"
+"will contain no syntax error.\n"
+msgstr "Epäilen, että olet tehnyt kirjoitusvirheen ja kirjoittanut `{op}` vahingossa. Jos korvaat sen yksilöllisellä muuttujan nimellä, tulos ei sisällä syntaksivirhettä.\n"
+
+msgid ""
+"I suspect you made a typo and wrote `{op}` by mistake,\n"
+"perhaps instead of writing an identifier (variable name).\n"
+msgstr "Epäilen, että olet tehnyt kirjoitusvirheen ja kirjoittanut `{op}` vahingossa, ehkä sen sijaan, että olisit kirjoittanut tunnisteen (muuttujan nimen).\n"
+
+msgid "The `**` operator needs to be followed by an identifier (variable name).\n"
+msgstr "`**`-operaattorin jälkeen on oltava tunniste (muuttujan nimi).\n"
+
+msgid "Positional arguments must come before keyword arguments.\n"
+msgstr "Paikka-argumenttien on tultava ennen avainsana-argumentteja.\n"
+
+msgid ""
+"`{arg}` is a positional argument that appears after one or more\n"
+"keyword arguments in your function definition.\n"
+msgstr "`{arg}` on sijaisargumentti, joka esiintyy yhden tai useamman avainsana-argumentin jälkeen funktiomäärittelyssäsi.\n"
+
+msgid "Line `{number}` identified above is more indented than expected.\n"
+msgstr "Edellä mainittu rivi `{number}` on odotettua enemmän sisennetty.\n"
+
+msgid "Line `{number}` identified above was expected to begin a new indented block.\n"
+msgstr "Yllä mainitun rivin `{number}` odotettiin aloittavan uuden sisennyslohkon.\n"
+
+msgid "Line `{number}` identified above is less indented than expected.\n"
+msgstr "Edellä mainittu rivi `{number}` on vähemmän sisennetty kuin odotettiin.\n"
+
+msgid ""
+"However, line {number}, which is identified as having a problem,\n"
+"consists of a single string which is also the case\n"
+"for the preceding line.\n"
+"Perhaps you meant to include a continuation character, `\\`,\n"
+"at the end of line {preceding}.\n"
+msgstr "Rivi {number}, jossa on ongelma, koostuu kuitenkin yhdestä merkkijonosta, mikä pätee myös edeltävään riviin. Ehkä sinun oli tarkoitus lisätä jatkomerkki `\\` rivin {preceding} loppuun.\n"
+
+msgid "You can only assign objects to identifiers (variable names).\n"
+msgstr "Voit määrittää objekteja vain tunnisteille (muuttujien nimille).\n"
+
+msgid ""
+"You can only delete names of objects, or items in mutable containers\n"
+"such as `list`, `set`, or `dict`.\n"
+msgstr "Voit poistaa vain objektien nimiä tai muuttuvien säiliöiden, kuten `list`, `set` tai `dict`, kohteita.\n"
+
+msgid "of type `int`"
+msgstr "tyyppi `int`"
+
+msgid "of type `complex`"
+msgstr "tyypiltään `kompleksi`"
+
+msgid "of type `float`"
+msgstr "tyyppi `float`"
+
+msgid "of type `str`"
+msgstr "tyyppi `str`"
+
+msgid "of type `dict`"
+msgstr "tyyppi `dict`"
+
+msgid "of type `list`"
+msgstr "tyyppi `list`"
+
+msgid "of type `set`"
+msgstr "jonka tyyppi on `set`"
+
+msgid "of type `tuple`"
+msgstr "tyyppi `tuple`"
+
+msgid "Did you mean `{num}`?\n"
+msgstr "Tarkoititko `{num}`?\n"
+
+msgid ""
+"Perhaps you meant to write the octal number `{num}`\n"
+"and forgot the letter 'o', or perhaps you meant to write\n"
+"a decimal integer and did not know that it could not start with zeros.\n"
+msgstr "Ehkä sinun oli tarkoitus kirjoittaa oktaaliluku `{num}` ja unohdit o-kirjaimen, tai ehkä sinun oli tarkoitus kirjoittaa desimaalinen kokonaisluku etkä tiennyt, että se ei voi alkaa nollilla.\n"
+
+msgid ""
+"Perhaps you meant to write the integer `{num}`\n"
+"and did not know that it could not start with zeros.\n"
+msgstr "Ehkä sinun oli tarkoitus kirjoittaa kokonaisluku `{num}` etkä tiennyt, että se ei voi alkaa nollilla.\n"
+
+msgid ""
+"On the left-hand side of an equal sign, you have a\n"
+"conditional expression instead of the name of a variable.\n"
+"A conditional expression has the following form:\n"
+"\n"
+"    variable = object if condition else other_object\n"
+msgstr "Yhtäläisyysmerkin vasemmalla puolella on muuttujan nimen sijasta ehdollinen lauseke. Ehdollinen lauseke on seuraavanlainen: muuttuja = objekti if ehto else muu_objekti\n"
+
+msgid ""
+"On the left-hand side of an equal sign, you have a\n"
+"conditional expression instead of the name of a variable.\n"
+"    {expression} = ...\n"
+"    {mark}\n"
+msgstr "Yhtäläisyysmerkin vasemmalla puolella on muuttujan nimen sijasta ehdollinen lauseke. {expression} = ... {mark}\n"
+
+msgid ""
+"On the left-hand side of an equal sign, you have\n"
+"an expression instead of the name of a variable.\n"
+msgstr "Yhtäläisyysmerkin vasemmalla puolella on muuttujan nimen sijasta lauseke.\n"
+
+msgid ""
+"You wrote the expression\n"
+"\n"
+"    {fn_call} = ...\n"
+"where `{fn_call}`, on the left-hand side of the equal sign, either is\n"
+"or includes a function call and is not simply the name of a variable.\n"
+msgstr "Kirjoitit lausekkeen {fn_call} = ..., jossa `{fn_call}`, joka on yhtäläisyysmerkin vasemmalla puolella, on joko funktiokutsu tai sisältää sen eikä ole vain muuttujan nimi.\n"
+
+msgid ""
+"You wrote the expression\n"
+"\n"
+"    {fn_call} = ...\n"
+"    {mark}\n"
+"where `{fn_call}`, on the left-hand side of the equal sign, either is\n"
+"or includes a function call and is not simply the name of a variable.\n"
+msgstr "Kirjoitit lausekkeen {fn_call} = ... {mark}, jossa `{fn_call}`, joka on yhtäläisyysmerkin vasemmalla puolella, on joko funktiokutsu tai sisältää sen eikä ole vain muuttujan nimi.\n"
+
+msgid ""
+"On the left-hand side of an equal sign, you have a\n"
+"generator expression instead of the name of a variable.\n"
+msgstr "Yhtäläisyysmerkin vasemmalla puolella on muuttujan nimen sijasta generaattorilauseke.\n"
+
+msgid ""
+"You wrote an expression that has the f-string `{fstring}`\n"
+"on the left-hand side of the equal sign.\n"
+"An f-string should only appear on the right-hand side of an equal sign.\n"
+msgstr "Kirjoitit lausekkeen, jossa f-string `{fstring}` on yhtäsuuruusmerkin vasemmalla puolella. f-string pitäisi olla vain yhtäsuuruusmerkin oikealla puolella.\n"
+
+msgid "You cannot assign a value to `{keyword}`.\n"
+msgstr "Et voi antaa arvoa `{keyword}`.\n"
+
+msgid "You cannot assign a value to the ellipsis symbol [`...`].\n"
+msgstr "Ellipsisymbolille [`...`] ei voi antaa arvoa.\n"
+
+msgid "The ellipsis symbol `...` is a constant in Python;you cannot assign it a different value.\n"
+msgstr "Ellipsisymboli `...` on Pythonissa vakio; et voi antaa sille eri arvoa.\n"
+
+msgid "`{keyword}` is a constant in Python; you cannot assign it a different value.\n"
+msgstr "`{keyword}` on Pythonissa vakio; et voi antaa sille eri arvoa.\n"
+
+msgid ""
+"You were trying to assign a value to the Python keyword `{keyword}`.\n"
+"This is not allowed.\n"
+"\n"
+msgstr "Yritit antaa arvon Pythonin avainsanalle `{keyword}`. Tämä ei ole sallittua.\n"
+
+msgid ""
+"A for loop must have the form:\n"
+"\n"
+"    for ... in sequence:\n"
+"\n"
+"where `...` must contain only identifiers (variable names)\n"
+"and not literals like `{bad_token}`.\n"
+msgstr "For-silmukan on oltava muotoa: for ... in sequence: jossa `...` saa sisältää vain tunnisteita (muuttujien nimiä) eikä kirjaimia kuten `{bad_token}`.\n"
+
+msgid "variable_name"
+msgstr "muuttuja_nimi"
+
+msgid ""
+"Perhaps you meant to write:\n"
+"\n"
+"    {name} = {literal}\n"
+"\n"
+msgstr "Ehkä sinun piti kirjoittaa: {name} = {literal}.\n"
+
+msgid "Perhaps you meant to write `{name} = {literal}`"
+msgstr "Ehkä sinun piti kirjoittaa `{name} = {literal}`"
+
+msgid ""
+"You wrote an expression like\n"
+"\n"
+"    {literal} = {name}\n"
+"where `{literal}`, on the left-hand side of the equal sign,\n"
+"is or includes an actual object {of_type}\n"
+"and is not simply the name of a variable.\n"
+msgstr "Kirjoitit lausekkeen {literal} = {name}, jossa `{literal}`, yhtäläisyysmerkin vasemmalla puolella, on tai sisältää todellisen objektin {of_type} eikä ole vain muuttujan nimi.\n"
+
+msgid ""
+"It is possible that you used an equal sign `=` instead of a colon `:`\n"
+"to assign values to keys in a dict.\n"
+msgstr "On mahdollista, että olet käyttänyt yhtäläisyysmerkkiä `=` kaksoispisteen `:` sijasta antaaksesi arvoja dictin avaimille.\n"
+
+msgid ""
+"You wrote an expression that includes some mathematical operations\n"
+"on the left-hand side of the equal sign which should be\n"
+"only used to assign a value to a variable.\n"
+msgstr "Kirjoitit lausekkeen, joka sisältää joitakin matemaattisia operaatioita yhtäläisyysmerkin vasemmalla puolella, jota pitäisi käyttää vain arvon antamiseen muuttujalle.\n"
+
+msgid "Perhaps you meant to write `{name}` instead of `{original}`\n"
+msgstr "Ehkä sinun piti kirjoittaa `{name}` eikä `{original}`.\n"
+
+msgid "Perhaps you needed `==` instead of `=`.\n"
+msgstr "Ehkä tarvitsit `==` eikä `=`.\n"
+
+msgid ""
+"You wrote an expression that includes the `yield` keyword\n"
+"on the left-hand side of the equal sign.\n"
+"You cannot assign a value to such an expression.\n"
+"Note that, like the keyword `return`,\n"
+"`yield` can only be used inside a function.\n"
+msgstr "Kirjoitit lausekkeen, joka sisältää `yield`-avainsanan yhtäläisyysmerkin vasemmalla puolella. Et voi antaa arvoa tällaiselle lausekkeelle. Huomaa, että kuten avainsanaa `return`, `yield` voidaan käyttää vain funktion sisällä.\n"
+
+msgid ""
+"You are using the augmented assignment operator `:=` inside\n"
+"a comprehension to assign a value to the iteration variable `{var}`.\n"
+"This variable is meant to be used only inside the comprehension.\n"
+"The augmented assignment operator is normally used to assign a value\n"
+"to a variable so that the variable can be reused later.\n"
+"This is not possible for variable `{var}`.\n"
+msgstr "Käytät laajennettua osoitusoperaattoria `:=` ymmärrettävyyden sisällä osoittaaksesi arvon iteraatiomuuttujalle `{var}`. Tätä muuttujaa on tarkoitus käyttää vain ymmärrettävyyden sisällä. Laajennettua osoitusoperaattoria käytetään normaalisti osoittamaan arvo muuttujalle, jotta muuttujaa voidaan käyttää myöhemmin uudelleen. Tämä ei ole mahdollista muuttujalle `{var}`.\n"
+
+msgid ""
+"The object named `{name}` is defined with type annotation\n"
+"as a local variable. It cannot be declared to be a global variable.\n"
+msgstr "Objekti nimeltä `{name}` on määritelty tyyppimerkinnällä paikalliseksi muuttujaksi. Sitä ei voi ilmoittaa globaaliksi muuttujaksi.\n"
+
+msgid ""
+"You cannot use the augmented assignment operator `:=`,\n"
+"sometimes called the walrus operator, with literals like `{bad_token}`.\n"
+"You can only assign objects to identifiers (variable names).\n"
+msgstr "Et voi käyttää laajennettua osoitusoperaattoria `:=`, jota kutsutaan joskus mursuoperaattoriksi, kirjaimilla kuten `{bad_token}`. Voit osoittaa objekteja vain tunnisteille (muuttujien nimille).\n"
+
+msgid ""
+"You declared `{name}` as being both a global and nonlocal variable.\n"
+"A variable can be global, or nonlocal, but not both at the same time.\n"
+msgstr "Ilmoitit `{name}` sekä globaaliksi että ei-paikalliseksi muuttujaksi. Muuttuja voi olla globaali tai ei-paikallinen, mutta ei molempia samaan aikaan.\n"
+
+msgid "Python tells us that the {bracket} was never closed.\n"
+msgstr "Python kertoo meille, että {bracket} ei koskaan suljettu.\n"
+
+msgid "The {bracket} was never closed.\n"
+msgstr "{bracket} ei koskaan suljettu.\n"
+
+msgid "The Python keyword `break` can only be used inside a `for` loop or inside a `while` loop.\n"
+msgstr "Pythonin avainsanaa `break` voidaan käyttää vain `for`-silmukan tai `while`-silmukan sisällä.\n"
+
+msgid "You likely used an assignment operator `=` instead of an equality operator `==`.\n"
+msgstr "Olet todennäköisesti käyttänyt osoitusoperaattoria `=` tasa-arvooperaattorin `==` sijasta.\n"
+
+msgid ""
+"The following statement would not contain a syntax error:\n"
+"\n"
+"    {new_statement}\n"
+msgstr "Seuraava lauseke ei sisällä syntaksivirhettä: {new_statement}.\n"
+
+msgid "You cannot delete the constant `{constant}`.\n"
+msgstr "Et voi poistaa vakiota `{constant}`.\n"
+
+msgid "You cannot delete a Python expression.\n"
+msgstr "Python-lauseketta ei voi poistaa.\n"
+
+msgid "You cannot delete the expression `{expression}`.\n"
+msgstr "Lauseketta `{expression}` ei voi poistaa.\n"
+
+msgid ""
+"You attempted to delete a function call\n"
+"\n"
+"    {line}\n"
+"instead of deleting the function's name\n"
+"\n"
+"    {correct}\n"
+msgstr "Yritit poistaa funktiokutsun {line} sen sijaan, että olisit poistanut funktion nimen {correct}.\n"
+
+msgid "You cannot delete the literal `{literal}`.\n"
+msgstr "Et voi poistaa kirjainta `{literal}`.\n"
+
+msgid "You cannot delete the named expression `{expression}`.\n"
+msgstr "Nimettyä lauseketta `{expression}` ei voi poistaa.\n"
+
+msgid ""
+"The star operator `*` is interpreted to mean that\n"
+"iterable unpacking is to be used to assign a name\n"
+"to each item of an iterable, which does not make sense here.\n"
+msgstr "Tähtioperaattorin `*` tulkitaan tarkoittavan, että iterable unpackingia käytetään nimen antamiseen jokaiselle iterable-oliolle, mikä ei ole järkevää tässä tapauksessa.\n"
+
+msgid ""
+"It looks like you surrounded a starred name by parentheses.\n"
+"This was not considered a SyntaxError before Python version 3.9.\n"
+msgstr "Näyttää siltä, että ympäröit tähtimerkin nimen sulkeilla.Tätä ei pidetty SyntaxErrorina ennen Pythonin versiota 3.9.\n"
+
+msgid "Did you forget a colon?\n"
+msgstr "Unohditko kaksoispisteen?\n"
+
+msgid "Python expected a colon at the position indicated.\n"
+msgstr "Python odotti kaksoispistettä osoitetussa kohdassa.\n"
+
+msgid ""
+"It looks like the error occurred as you were writing a Python dict.\n"
+"Perhaps you wrote a dict key without writing the corresponding value.\n"
+msgstr "Näyttää siltä, että virhe ilmeni, kun kirjoitit Python dict:tä. Ehkä kirjoitit dict-avaimen kirjoittamatta vastaavaa arvoa.\n"
+
+msgid "Did you forget to write a dict value?\n"
+msgstr "Unohditko kirjoittaa dict-arvon?\n"
+
+msgid "The Python keyword `continue` can only be used inside a `for` loop or inside a `while` loop.\n"
+msgstr "Pythonin avainsanaa `continue` voidaan käyttää vain `for`-silmukan tai `while`-silmukan sisällä.\n"
+
+msgid ""
+"You have defined a function repeating the argument\n"
+"\n"
+"    {name}\n"
+"Each argument should appear only once in a function definition.\n"
+msgstr "Olet määrittänyt funktion, jossa toistuu argumentti {name} Jokainen argumentti saa esiintyä vain kerran funktion määrittelyssä.\n"
+
+msgid "Did you forget to add `else`?\n"
+msgstr "Unohditko lisätä `else`?\n"
+
+msgid "An `else some_value` clause was expected after the `if` expression.\n"
+msgstr "Jos-lausekkeen jälkeen odotettiin `else some_value`-lauseketta.\n"
+
+msgid ""
+"You started writing a triple-quoted string but never wrote\n"
+"the triple quotes needed to end the string.\n"
+msgstr "Aloitit kolminkertaisten lainausmerkkien kirjoittamisen, mutta et koskaan kirjoittanut kolminkertaisia lainausmerkkejä, joita tarvitaan merkkijonon päättämiseen.\n"
+
+msgid "Did you forget a closing quote?\n"
+msgstr "Unohditko loppusitaatin?\n"
+
+msgid ""
+"You started writing a string with a single or double quote\n"
+"but never ended the string with another quote on that line.\n"
+msgstr "Aloitit merkkijonon kirjoittamisen yksinkertaisella tai kaksinkertaisella lainausmerkillä, mutta et koskaan päättänyt merkkijonoa toiseen lainausmerkkiin kyseisellä rivillä.\n"
+
+msgid ""
+"Perhaps you meant to write the backslash character, `\\`\n"
+"as the last character in the string and forgot that you\n"
+"needed to escape it by writing two `\\` in a row.\n"
+msgstr "Ehkä sinun oli tarkoitus kirjoittaa backslash-merkki `\\` merkkijonon viimeiseksi merkiksi ja unohdit, että sinun piti välttää se kirjoittamalla kaksi `\\` peräkkäin.\n"
+
+msgid "Did you forget to escape a backslash character?\n"
+msgstr "Unohditko välttää backslash-merkin?\n"
+
+msgid "Perhaps you forgot to escape a quote character.\n"
+msgstr "Ehkä unohdit välttää lainausmerkin.\n"
+
+msgid ""
+"I suspect that you were trying to use a quote character inside a string\n"
+"that was enclosed in quotes of the same kind.\n"
+"Perhaps you should have escaped the inner quote character:\n"
+"\n"
+"    {new_line}\n"
+"    {mark}\n"
+msgstr "Epäilen, että yritit käyttää lainausmerkkiä sellaisen merkkijonon sisällä, joka oli suljettu samantyyppisiin lainausmerkkeihin. Ehkä sinun olisi pitänyt poistaa sisäinen lainausmerkki: {new_line} {mark}\n"
+
+msgid "You wrote a `try` block which did not include an `except` nor a `finally` block.\n"
+msgstr "Kirjoitit `try`-lohkon, joka ei sisältänyt `except`- eikä `finally`-lohkoa.\n"
+
+msgid ""
+"Perhaps you meant to write\n"
+"\n"
+"    {new_statement}"
+msgstr "Ehkä sinun piti kirjoittaa {new_statement}"
+
+msgid "Did you mean `{new_statement}`?"
+msgstr "Tarkoititko `{new_statement}`?"
+
+msgid ""
+"Perhaps you meant to write either\n"
+"\n"
+"    {new_statement}\n"
+"\n"
+"or\n"
+"\n"
+"    {new_statement2}"
+msgstr "Ehkä sinun piti kirjoittaa joko {new_statement} tai {new_statement2}."
+
+msgid ""
+"You likely called a function using the Python keyword `{keyword}` as an argument:\n"
+"\n"
+"    a_function({keyword}=something) \n"
+"\n"
+"which Python interpreted as trying to assign a value to a Python keyword.\n"
+"\n"
+msgstr "Kutsuit todennäköisesti funktiota käyttäen Pythonin avainsanaa `{keyword}` argumenttina: funktio({keyword}=jotain), jonka Python tulkitsi yrittävän antaa arvon Pythonin avainsanalle.\n"
+
+msgid ""
+"You likely called a function with a named argument:\n"
+"\n"
+"    a_function(invalid=something) \n"
+"\n"
+"where `invalid` is not a valid variable name in Python\n"
+"either because it starts with a number, or is a string,\n"
+"or contains a period, etc.\n"
+msgstr "Kutsuit todennäköisesti funktiota nimetyllä argumentilla: a_function(invalid=jotain), jossa `invalid` ei ole kelvollinen muuttujan nimi Pythonissa joko siksi, että se alkaa numerolla, on merkkijono, sisältää pisteen jne.\n"
+
+msgid ""
+"It looks like the error occurred as you were writing a Python dict.\n"
+"Perhaps you forgot to write a value after a colon.\n"
+msgstr "Näyttää siltä, että virhe tapahtui, kun kirjoitit Python-diktiä. Ehkä unohdit kirjoittaa arvon kaksoispisteen jälkeen.\n"
+
+msgid ""
+"You have written an f-string whose content `{...}`\n"
+"includes a backslash; this is not allowed.\n"
+"Perhaps you can replace the part that contains a backslash by\n"
+"some variable. For example, suppose that you have an f-string like:\n"
+"\n"
+"    f\"{... 'hello\\n' ...}\"\n"
+"\n"
+"you could write this as\n"
+"\n"
+"    hello = 'hello\\n'\n"
+"    f\"{... hello ...}\"\n"
+msgstr "Olet kirjoittanut f-merkkijonon, jonka sisältö `{...}` sisältää backslash-viivan; tämä ei ole sallittua. Ehkä voit korvata backslash-viivan sisältävän osan jollain muuttujalla. Oletetaan esimerkiksi, että sinulla on f-merkkijono seuraavasti: f\"{.... 'hello\\n' ...}\" voit kirjoittaa tämän seuraavasti: hello = 'hello\\n' f\"{... hello ...}\"\n"
+
+msgid ""
+"You have written an f-string which has an unmatched `}`.\n"
+"If you want to print a single `}`, you need to write `}}` in the f-string;\n"
+"otherwise, you need to add an opening `{`.\n"
+msgstr "Olet kirjoittanut f-merkkijonon, jossa on yhdistämätön `}`. Jos haluat tulostaa yhden `}`:n, sinun on kirjoitettava `}}` f-merkkijonoon; muuten sinun on lisättävä avaava `{`.\n"
+
+msgid ""
+"You have written an f-string which has an unmatched `{`.\n"
+"If you want to print a single `{`, you need to write `{{` in the f-string;\n"
+"otherwise, you need to add a closing `}`.\n"
+msgstr "Olet kirjoittanut f-merkkijonon, jossa on yhteensopimaton `{`. Jos haluat tulostaa yhden `{`, sinun on kirjoitettava `{{` f-merkkijonoon; muussa tapauksessa sinun on lisättävä päättävä `}`.\n"
+
+msgid ""
+"I am guessing that you were writing a comprehension or a generator expression\n"
+"and forgot to include parentheses around tuples.\n"
+"As an example, instead of writing\n"
+"\n"
+"    [i, i**2 for i in range(10)]\n"
+"\n"
+"you would need to write\n"
+"\n"
+"    [(i, i**2) for i in range(10)]\n"
+"\n"
+msgstr "Oletan, että kirjoitit ymmärrystä tai generaattorilauseketta ja unohdit sulkeet tuplien ympärille. Esimerkiksi sen sijaan, että kirjoittaisit [i, i**2 for i in range(10)], sinun pitäisi kirjoittaa [(i, i**2) for i in range(10)].\n"
+
+msgid ""
+"A `from __future__ import` statement changes the way Python\n"
+"interprets the code in a file.\n"
+"It must appear at the beginning of the file."
+msgstr "`from __future__ import`-lauseke muuttaa tapaa, jolla Python tulkitsee tiedoston koodia. Sen on oltava tiedoston alussa."
+
+msgid "The available features are `{names}`.\n"
+msgstr "Käytettävissä olevat ominaisuudet ovat `{names}`.\n"
+
+msgid ""
+"When using a `from __future__ import` statement,\n"
+"you must import specific named features.\n"
+msgstr "Kun käytät `from __future__ import`-lausetta, sinun on tuotava tiettyjä nimettyjä ominaisuuksia.\n"
+
+msgid "Instead of `{feature}`, perhaps you meant to import `{name}`.\n"
+msgstr "`{feature}`:n sijasta ehkä tarkoitit tuoda `{name}`.\n"
+
+msgid "`{feature}` is not a valid feature of module `__future__`.\n"
+msgstr "`{feature}` ei ole moduulin `__future__` kelvollinen ominaisuus.\n"
+
+msgid ""
+"You are using a generator expression, something of the form\n"
+"\n"
+"    x for x in thing\n"
+"\n"
+"You must add parentheses enclosing that expression.\n"
+msgstr "Käytät generaattorilauseketta, joka on muodoltaan x for x in thing Sinun on lisättävä sulkeet lausekkeen ympärille.\n"
+
+msgid ""
+"I suspect you wrote `from __future__ import braces` following\n"
+"someone else's suggestion. This will never work.\n"
+"\n"
+"Unlike other programming languages, Python's code block are defined by\n"
+"their indentation level, and not by using some curly braces, like `{...}`.\n"
+msgstr "Epäilen, että kirjoitit `from __future__ import braces` jonkun toisen ehdotuksen perusteella. Toisin kuin muissa ohjelmointikielissä, Pythonissa koodilohkot määritellään sisennystasolla, eikä käyttämällä sulkeita, kuten `{...}`.\n"
+
+msgid "Did you use copy-paste?\n"
+msgstr "Käytitkö copy-pastea?\n"
+
+msgid ""
+"Python indicates that you used the unicode character `{bad_character}`\n"
+"which is not allowed.\n"
+msgstr "Python osoittaa, että käytit unicode-merkkiä `{bad_character}`, joka ei ole sallittu.\n"
+
+msgid "Python tells us that you have written an invalid number."
+msgstr "Python kertoo, että olet kirjoittanut virheellisen luvun."
+
+msgid "However, I think that the problem might be the following."
+msgstr "Luulen kuitenkin, että ongelma saattaa olla seuraavanlainen."
+
+msgid "I have no suggestion to offer to fix this problem.\n"
+msgstr "Minulla ei ole mitään ehdotusta tämän ongelman korjaamiseksi.\n"
+
+msgid ""
+"The double star operator `**` is likely interpreted to mean that\n"
+"dict unpacking is to be used which is not allowed or does not make sense here.\n"
+msgstr "Kaksoistähtioperaattorin `**` tulkitaan todennäköisesti tarkoittavan, että on käytettävä dict-pakkauksen purkamista, mikä ei ole sallittua tai ei ole järkevää tässä tapauksessa.\n"
+
+msgid ""
+"You cannot use the `*` operator to unpack the iteration variable\n"
+"in a comprehension.\n"
+msgstr "Et voi käyttää `*`-operaattoria iteraatiomuuttujan purkamiseen ymmärryksessä.\n"
+
+msgid ""
+"The following statement has no syntax error:\n"
+"\n"
+"    {statement}\n"
+msgstr "Seuraavassa lausumassa ei ole syntaksivirhettä: {statement}\n"
+
+msgid ""
+"You have called a function repeating the same keyword argument (`{arg}`).\n"
+"Each keyword argument should appear only once in a function call.\n"
+msgstr "Olet kutsunut funktiota toistamalla saman avainsana-argumentin (`{arg}`). Jokainen avainsana-argumentti saa esiintyä vain kerran funktiokutsussa.\n"
+
+msgid ""
+"Python tells us that the closing `{closing}` on the last line shown\n"
+"does not match the opening `{opening}` on line {lineno}.\n"
+"\n"
+msgstr "Python kertoo meille, että viimeisen näytetyn rivin sulkeutuva `{closing}` ei vastaa rivin {lineno} avautuvaa `{opening}`.\n"
+
+msgid ""
+"Python tells us that the closing `{closing}` on the last line shown\n"
+"does not match the opening `{opening}`.\n"
+"\n"
+msgstr "Python kertoo meille, että viimeisen rivin sulkeutuva `{closing}` ei vastaa avautuvaa `{opening}`.\n"
+
+msgid "Did you forget something after `*`?\n"
+msgstr "Unohditko jotain `*` jälkeen?\n"
+
+msgid ""
+"Assuming you were defining a function, you need\n"
+"to replace `*` by either `*arguments` or\n"
+"by `*, named_argument=value`.\n"
+msgstr "Jos oletetaan, että olet määrittämässä funktiota, sinun on korvattava `*` joko sanalla `*arguments` tai sanalla `*, named_argument=value`.\n"
+
+msgid ""
+"You assigned a value to the variable `{name}`\n"
+"before declaring it as a global variable.\n"
+msgstr "Annoit muuttujalle `{name}` arvon ennen kuin ilmoitit sen globaaliksi muuttujaksi.\n"
+
+msgid "Did you forget to add `nonlocal`?\n"
+msgstr "Unohditko lisätä `nonlocal`?\n"
+
+msgid ""
+"You assigned a value to the variable `{name}`\n"
+"before declaring it as a nonlocal variable.\n"
+msgstr "Annoit arvon muuttujalle `{name}` ennen kuin ilmoitit sen ei-paikalliseksi muuttujaksi.\n"
+
+msgid ""
+"You are including the statement\n"
+"\n"
+"    {newline}\n"
+"\n"
+"indicating that `{name}` is a variable defined outside a function.\n"
+"You are also using the same `{name}` as an argument for that\n"
+"function, thus indicating that it should be variable known only\n"
+"inside that function, which is the contrary of what `global` implied.\n"
+msgstr "Sisällytät lausekkeen {newline} osoittaen, että `{name}` on muuttuja, joka on määritelty funktion ulkopuolella. Käytät samaa `{name}` myös kyseisen funktion argumenttina, mikä osoittaa, että sen pitäisi olla muuttuja, joka tunnetaan vain kyseisen funktion sisällä, mikä on päinvastoin kuin mitä `global` tarkoitti.\n"
+
+msgid ""
+"You used `{name}` as a parameter for a function\n"
+"before declaring it also as a nonlocal variable:\n"
+"`{name}` cannot be both at the same time.\n"
+msgstr "Käytit `{name}` funktion parametrina ennen kuin ilmoitit sen myös ei-paikalliseksi muuttujaksi: `{name}` ei voi olla molempia samaan aikaan.\n"
+
+msgid ""
+"You used the variable `{name}`\n"
+"before declaring it as a global variable.\n"
+msgstr "Käytit muuttujaa `{name}` ennen kuin ilmoitit sen globaaliksi muuttujaksi.\n"
+
+msgid "Did you forget to write `nonlocal` first?\n"
+msgstr "Unohditko kirjoittaa `nonlocal` ensin?\n"
+
+msgid ""
+"You used the variable `{name}`\n"
+"before declaring it as a nonlocal variable.\n"
+msgstr "Käytit muuttujaa `{name}` ennen kuin ilmoitit sen ei-paikalliseksi muuttujaksi.\n"
+
+msgid ""
+"You declared the variable `{name}` as being a\n"
+"nonlocal variable but it cannot be found.\n"
+msgstr "Ilmoitit muuttujan `{name}` ei-paikalliseksi muuttujaksi, mutta sitä ei löydy.\n"
+
+msgid ""
+"You used the nonlocal keyword at a module level.\n"
+"The nonlocal keyword refers to a variable inside a function\n"
+"given a value outside that function."
+msgstr "Käytit nonlocal-avainsanaa moduulitasolla. Nonlocal-avainsana viittaa funktion sisällä olevaan muuttujaan, jolle annetaan arvo funktion ulkopuolella."
+
+msgid ""
+"In Python, you can define functions with only positional arguments\n"
+"\n"
+"    def test(a, b, c): ...\n"
+"\n"
+"or only keyword arguments\n"
+"\n"
+"    def test(a=1, b=2, c=3): ...\n"
+"\n"
+"or a combination of the two\n"
+"\n"
+"    def test(a, b, c=3): ...\n"
+"\n"
+"but with the keyword arguments appearing after all the positional ones.\n"
+"According to Python, you used positional arguments after keyword ones.\n"
+msgstr "Pythonissa voit määritellä funktioita, joilla on vain sijaintiargumentit def test(a, b, c): ... tai vain avainsana-argumentteja def test(a=1, b=2, c=3): ... tai näiden kahden yhdistelmä def test(a, b, c=3): ... mutta avainsana-argumentit esiintyvät kaikkien asema-argumenttien jälkeen. Pythonin mukaan käytit asema-argumentteja avainsana-argumenttien jälkeen.\n"
+
+msgid ""
+"I am guessing that you wanted to use an `except` statement\n"
+"with multiple exception types. If that is the case, you must\n"
+"surround them with parentheses.\n"
+msgstr "Arvelen, että halusit käyttää `except`-lauseketta useiden virhetyyppien kanssa. Jos näin on, ne on ympäröity sulkuilla.\n"
+
+msgid ""
+"In Python, you can call functions with only positional arguments\n"
+"\n"
+"    test(1, 2, 3)\n"
+"\n"
+"or only keyword arguments\n"
+"\n"
+"    test(a=1, b=2, c=3)\n"
+"\n"
+"or a combination of the two\n"
+"\n"
+"    test(1, 2, c=3)\n"
+"\n"
+"but with the keyword arguments appearing after all the positional ones.\n"
+"According to Python, you used positional arguments after keyword ones.\n"
+msgstr "Pythonissa voit kutsua funktioita, joissa on vain sijaintiargumentit test(1, 2, 3) tai vain avainsana-argumentit test(a=1, b=2, c=3) tai näiden kahden yhdistelmä test(1, 2, c=3), mutta avainsana-argumentit esiintyvät kaikkien sijaintiargumenttien jälkeen. Pythonin mukaan käytit sijaintiargumentteja avainsana-argumenttien jälkeen.\n"
+
+msgid ""
+"Perhaps you need to type\n"
+"\n"
+"     print({message})\n"
+"\n"
+"In older version of Python, `print` was a keyword.\n"
+"Now, `print` is a function; you need to use parentheses to call it.\n"
+msgstr "Ehkä sinun täytyy kirjoittaa print({message}) Pythonin vanhemmassa versiossa `print` oli avainsana. Nyt `print` on funktio; sinun täytyy käyttää sulkuja kutsuaksesi sitä.\n"
+
+msgid "Note that arguments of `print` must be separated by commas.\n"
+msgstr "Huomaa, että `print`-argumentit on erotettava toisistaan pilkuilla.\n"
+
+msgid "Did you mean `print({message})`?\n"
+msgstr "Tarkoititko `print({message})`?\n"
+
+msgid "You can only use a `return` statement inside a function or method.\n"
+msgstr "Voit käyttää `return`-lausetta vain funktion tai metodin sisällä.\n"
+
+msgid ""
+"A star assignment must be of the form:\n"
+"\n"
+"    ... *name = list_or_tuple\n"
+"\n"
+msgstr "Tähtitehtävän on oltava muodoltaan: ... *name = list_or_tuple\n"
+
+msgid ""
+"It looks like you tried to use a starred expression as a dict value;\n"
+"this is not allowed.\n"
+msgstr "Näyttää siltä, että olet yrittänyt käyttää tähdellä varustettua lauseketta dict-arvona; tämä ei ole sallittua.\n"
+
+msgid ""
+"Your code is too complex for Python:\n"
+"you need to reduce the number of indented code blocks\n"
+"contained inside other code blocks.\n"
+msgstr "Koodisi on liian monimutkaista Pythonille: sinun on vähennettävä muiden koodilohkojen sisällä olevien sisennettyjen koodilohkojen määrää.\n"
+
+msgid ""
+"Your code is too complex for Python:\n"
+"you need to reduce the number of parentheses\n"
+"contained inside other parentheses.\n"
+msgstr "Koodisi on liian monimutkainen Pythonille: sinun on vähennettävä muiden sulkujen sisällä olevien sulkujen määrää.\n"
+
+msgid ""
+"Python indicates that you need to surround an expression\n"
+"ending with a comma by parentheses.\n"
+msgstr "Python ilmoittaa, että pilkkuun päättyvä lauseke on ympäröity sulkuilla.\n"
+
+msgid ""
+"I have no additional suggestion to offer.\n"
+"Please feel free to report this case.\n"
+msgstr "Minulla ei ole muita ehdotuksia, mutta voitte vapaasti ilmoittaa tästä tapauksesta.\n"
+
+msgid ""
+"Perhaps you meant to write\n"
+"\n"
+"`{new_statement}`\n"
+msgstr "Ehkä sinun piti kirjoittaa `{new_statement}`.\n"
+
+msgid "However, I suspect that you wrote the keyword `{boolean}` by mistake.\n"
+msgstr "Epäilen kuitenkin, että kirjoitit avainsanan `{boolean}` vahingossa.\n"
+
+msgid "The Python keyword `{boolean}` can only be used for boolean expressions.\n"
+msgstr "Pythonin avainsanaa `{boolean}` voidaan käyttää vain boolean-lausekkeissa.\n"
+
+msgid "However, if you remove the last comma, there will be no syntax error.\n"
+msgstr "Jos kuitenkin poistat viimeisen pilkun, syntaksivirhettä ei tule.\n"
+
+msgid ""
+"You are using the continuation character `\\` outside of a string,\n"
+"and it is followed by some other character(s).\n"
+msgstr "Käytät jatkomerkkiä `\\` merkkijonon ulkopuolella, ja sitä seuraa jokin muu merkki tai merkkejä.\n"
+
+msgid ""
+"I am guessing that you wanted to divide by the number {number} \n"
+"and wrote \\ instead of /."
+msgstr "Arvelen, että halusit jakaa luvulla {number} ja kirjoitit \\ eikä /."
+
+msgid "Did you mean to divide by {number}?\n"
+msgstr "Tarkoititko jakaa {number}?\n"
+
+msgid "I am guessing that you forgot to enclose some content in a string.\n"
+msgstr "Oletan, että unohdit liittää jonkin sisällön merkkijonoon.\n"
+
+msgid ""
+"Python tells us that it reached the end of the file\n"
+"and expected more content.\n"
+"\n"
+msgstr "Python kertoo, että se on saavuttanut tiedoston lopun ja odottaa lisää sisältöä.\n"
+
+msgid ""
+"I will attempt to be give a bit more information.\n"
+"\n"
+msgstr "Yritän antaa hieman enemmän tietoa.\n"
+
+msgid ""
+"I suspect that you wrote a string that contains\n"
+"one backslash character, `\\` followed by an uppercase `U`\n"
+"and some more characters.\n"
+"Python likely interpreted this as indicating the beginning of\n"
+"what is known as an escape sequence for special unicode characters.\n"
+"To solve the problem, either write a so-called 'raw string'\n"
+"by adding the letter `r` as a prefix in\n"
+"front of the string, or replace `\\U`, by `\\\\U`.\n"
+msgstr "Epäilen, että kirjoitit merkkijonon, joka sisältää yhden backslash-merkin, `\\`, jota seuraa iso kirjain `U` ja joitakin muita merkkejä. Python tulkitsi tämän todennäköisesti osoittavan niin sanotun escape-sekvenssin alkua unicode-erikoismerkkejä varten. Ongelman ratkaisemiseksi kirjoita joko niin sanottu \"raaka merkkijono\" lisäämällä merkkijonon eteen kirjain `r` tai korvaa `\\U` merkillä `\\\\\\U`.\n"
+
+msgid "The closing {bracket} on line {linenumber} does not match anything.\n"
+msgstr "Rivin {linenumber} sulkeva {bracket} ei vastaa mitään.\n"
+
+msgid "Perhaps you forgot a closing quote.\n"
+msgstr "Ehkä unohdit loppulausuman.\n"
+
+msgid ""
+"Inside the f-string `{fstring}`, \n"
+"you have another string, which starts with either a\n"
+"single quote (') or double quote (\"), without a matching closing one.\n"
+msgstr "F-stringin `{fstring}` sisällä on toinen merkkijono, joka alkaa joko yksinkertaisella lainausmerkillä (') tai kaksinkertaisella lainausmerkillä (\") ilman vastaavaa sulkevaa lainausmerkkiä.\n"
+
+msgid "You can only use a `yield` statement inside a function.\n"
+msgstr "Voit käyttää `yield`-lauseketta vain funktion sisällä.\n"
+
+msgid ""
+"This is a message that was added in Python 3.9\n"
+"to prevent redefining `__peg_parser__`.\n"
+"It should not be present in other versions.\n"
+msgstr "Tämä on viesti, joka lisättiin Python 3.9:ssä estämään `__peg_parser__`:n uudelleenmäärittelyn. Sen ei pitäisi esiintyä muissa versioissa.\n"
+
+msgid ""
+"Friendly-traceback cannot identify the non-printable character.\n"
+"This should not happen. Please report this case"
+msgstr "Friendly-traceback ei pysty tunnistamaan ei-tulostettavaa merkkiä. Tämän ei pitäisi tapahtua. Ilmoita tästä tapauksesta"
+
+msgid "Your code contains the invalid non-printable character {char}.\n"
+msgstr "Koodisi sisältää virheellisen ei-tulostettavan merkin {char}.\n"
+
+msgid "Did you mean `from {module} import {function}`?\n"
+msgstr "Tarkoititko `from {module} import {function}`?\n"
+
+msgid ""
+"You wrote something like\n"
+"\n"
+"    import {function} from {module}\n"
+"\n"
+"instead of\n"
+"\n"
+"    from {module} import {function}\n"
+"\n"
+msgstr "Kirjoitit jotain kuten import {function} from {module} eikä from {module} import {function}.\n"
+
+msgid ""
+"The statement `{line}` is not valid.\n"
+"\n"
+msgstr "Lauseke `{line}` ei ole kelvollinen.\n"
+
+msgid "I don't have any additional information"
+msgstr "Minulla ei ole lisätietoja"
+
+msgid "Did you forget to add an index?\n"
+msgstr "Unohditko lisätä indeksin?\n"
+
+msgid ""
+"It looks like you forgot to add an index.\n"
+"Perhaps you meant to write something like:\n"
+"\n"
+"    {new_line}"
+msgstr "Näyttää siltä, että unohdit lisätä indeksin. Ehkä sinun piti kirjoittaa jotakin seuraavanlaista: {new_line}"
+
+msgid "The closing {bracket} on line {close_lineno} does not match the opening {open_bracket} on line {open_lineno}.\n"
+msgstr "Rivin {close_lineno} sulkeva {bracket} ei vastaa rivin {open_bracket} avaavaa {open_lineno}.\n"
+
+msgid "Did you mean to write `...`?\n"
+msgstr "Tarkoititko kirjoittaa `...`?\n"
+
+msgid "It looks like you meant to write `...` but added an extra `.` by mistake.\n"
+msgstr "Näyttää siltä, että sinun piti kirjoittaa `...` mutta lisäsit vahingossa ylimääräisen `.`.\n"
+
+msgid ""
+"It looks like you copy-pasted code from an interactive interpreter.\n"
+"The Python prompt, `>>>`, should not be included in your code.\n"
+msgstr "Näyttää siltä, että kopioit koodia interaktiivisesta tulkista. Python-kehotetta, `>>>>`, ei pitäisi sisällyttää koodiisi.\n"
+
+msgid ""
+"It looks like you copy-pasted code from an interactive interpreter.\n"
+"The Python prompt, `...`, should not be included in your code.\n"
+msgstr "Näyttää siltä, että kopioit koodia interaktiivisesta tulkista. Python-kehotetta, `...`, ei pitäisi sisällyttää koodiisi.\n"
+
+msgid "You should not use the backquote character.\n"
+msgstr "Takaviivamerkkiä ei pidä käyttää.\n"
+
+msgid ""
+"You are using the backquote character.\n"
+"Either you meant to write a single quote, ', or copied Python 2 code;\n"
+"in this latter case, use the function `repr(x)`."
+msgstr "Käytät takaviivamerkkiä. Tarkoitit joko kirjoittaa yksinkertaisen lainausmerkin, ', tai kopioit Python 2 -koodia; jälkimmäisessä tapauksessa käytä funktiota `repr(x)`."
+
+msgid "You forgot to add a condition.\n"
+msgstr "Unohdit lisätä ehdon.\n"
+
+msgid ""
+"An `if` statement requires a condition:\n"
+"\n"
+"    if condition:\n"
+"        ...\n"
+"\n"
+msgstr "Jos-lause vaatii ehdon: if ehto: ...\n"
+
+msgid ""
+"A `while` loop requires a condition:\n"
+"\n"
+"    while condition:\n"
+"        ...\n"
+"\n"
+msgstr "While-silmukka vaatii ehdon: while ehto: ...\n"
+
+msgid "A `for` loop requires at least 3 more terms.\n"
+msgstr "For-silmukka vaatii vähintään 3 muuta termiä.\n"
+
+msgid ""
+"A `for` loop is an iteration over a sequence:\n"
+"\n"
+"    for element in sequence:\n"
+"        ...\n"
+"\n"
+msgstr "For-silmukka on sarjan iterointi: for element in sequence: ...\n"
+
+msgid "A class needs a name.\n"
+msgstr "Luokka tarvitsee nimen.\n"
+
+msgid ""
+"A `class` statement requires a name:\n"
+"\n"
+"    class SomeName:\n"
+"        ...\n"
+"\n"
+msgstr "`class`-lause vaatii nimen: class SomeName: ...\n"
+
+msgid ""
+"You cannot use the Python keyword `{word}` as an attribute.\n"
+"\n"
+msgstr "Pythonin avainsanaa `{word}` ei voi käyttää attribuuttina.\n"
+
+msgid "`{word}` cannot be used as an attribute.\n"
+msgstr "`{word}` ei voi käyttää attribuuttina.\n"
+
+msgid "Perhaps you meant to write `elif`.\n"
+msgstr "Ehkä sinun piti kirjoittaa `elif`.\n"
+
+msgid ""
+"You likely meant to use Python's `elif` keyword\n"
+"but wrote `{name}` instead.\n"
+"\n"
+msgstr "Tarkoituksenasi oli todennäköisesti käyttää Pythonin `elif`-avainsanaa, mutta kirjoitit sen sijaan `{name}`.\n"
+
+msgid "The augmented assignment operator is not allowed in Python version {version}.\n"
+msgstr "Lisätty osoitusoperaattori ei ole sallittu Python-versiossa {version}.\n"
+
+msgid ""
+"You appear to be using the operator `:=`, sometimes called\n"
+"the walrus operator. This operator requires the use of\n"
+"Python 3.8 or newer. You are using version {version}.\n"
+msgstr "Näyttää siltä, että käytät operaattoria `:=`, jota kutsutaan joskus mursuoperaattoriksi. Tämä operaattori edellyttää Python 3.8:n tai uudemman version käyttöä. Käytät versiota {version}.\n"
+
+msgid "Did you write operators in an incorrect order?\n"
+msgstr "Kirjoititko operaattorit väärässä järjestyksessä?\n"
+
+msgid ""
+"It looks like you wrote two operators (`{first}` and `{second}`)\n"
+"in the wrong order: `{wrong}` instead of `{correct}`.\n"
+msgstr "Näyttää siltä, että kirjoitit kaksi operaattoria (`{first}` ja `{second}`) väärässä järjestyksessä: `{wrong}` eikä `{correct}`.\n"
+
+msgid ""
+"You wrote three equal signs in a row which is allowed in some\n"
+"programming languages, but not in Python. To check if two objects\n"
+"are equal, use two equal signs, `==`; to see if two names represent\n"
+"the exact same object, use the operator `is`.\n"
+msgstr "Kirjoitit kolme yhtäsuuruusmerkkiä peräkkäin, mikä on sallittua joissakin ohjelmointikielissä, mutta ei Pythonissa. Jos haluat tarkistaa, ovatko kaksi objektia yhtä suuret, käytä kahta yhtäläisyysmerkkiä, `==`; jos haluat tarkistaa, edustavatko kaksi nimeä täsmälleen samaa objektia, käytä operaattoria `is`.\n"
+
+msgid "Did you mean to use `is` instead of `===`?\n"
+msgstr "Tarkoititko käyttää `is` eikä `===`?\n"
+
+msgid ""
+"You cannot have write the same operator, `{op}`, twice in a row.\n"
+"Perhaps you wrote one of them by mistake\n"
+"or forgot to write something between them.\n"
+msgstr "Et voi kirjoittaa samaa operaattoria, `{op}`, kahdesti peräkkäin. Ehkä kirjoitit toisen niistä vahingossa tai unohdit kirjoittaa jotain niiden väliin.\n"
+
+msgid ""
+"You cannot have these two operators, `{first}` and `{second}`,\n"
+"following each other.\n"
+"It looks like you tried to use a starred expression as a dict value;\n"
+"this is not allowed.\n"
+msgstr "Nämä kaksi operaattoria, `{first}` ja `{second}`, eivät voi seurata toisiaan. Näyttää siltä, että olet yrittänyt käyttää tähdellä varustettua lauseketta dict-arvona; tämä ei ole sallittua.\n"
+
+msgid ""
+"You cannot have these two operators, `{first}` and `{second}`,\n"
+"following each other. Perhaps you wrote one of them by mistake\n"
+"or forgot to write something between them.\n"
+msgstr "Nämä kaksi operaattoria, `{first}` ja `{second}`, eivät voi seurata toisiaan. Ehkä kirjoitit toisen niistä vahingossa tai unohdit kirjoittaa jotain niiden väliin.\n"
+
+msgid ""
+"Or perhaps you included a space by mistake between the two operators\n"
+"and meant to write `{oper}` as a single operator.\n"
+msgstr "Tai ehkä lisäsit vahingossa välilyönnin kahden operaattorin väliin ja tarkoituksesi oli kirjoittaa `{oper}` yhtenä operaattorina.\n"
+
+msgid "Did you mean to use `=`?\n"
+msgstr "Tarkoititko käyttää `=`?\n"
+
+msgid ""
+"You use the augmented assignment operator `:=` where\n"
+"the normal assignment operator `=` was required.\n"
+msgstr "Käytät laajennettua osoitusoperaattoria `:=` siinä missä normaali osoitusoperaattori `=` oli tarpeen.\n"
+
+msgid ""
+"The following statement would not contain a syntax error:\n"
+"\n"
+"    {new_statement}"
+msgstr "Seuraava lauseke ei sisällä syntaksivirhettä: {new_statement}."
+
+msgid "Perhaps you needed `==` or `:=` instead of `=`.\n"
+msgstr "Ehkä tarvitsit `==` tai `:=` `=`:n sijasta.\n"
+
+msgid ""
+"You used an assignment operator `=`; perhaps you meant to use \n"
+"an equality operator, `==`, or the walrus operator `:=`.\n"
+msgstr "Käytit osoitusoperaattoria `=`; ehkä sinun piti käyttää tasa-arvooperaattoria `==` tai mursuoperaattoria `:=`.\n"
+
+msgid ""
+"It looks as if you are attempting to use pip to install a module.\n"
+"`pip` is a command that needs to run in a terminal,\n"
+"not from a Python interpreter.\n"
+msgstr "Näyttää siltä, että yrität käyttää pipiä moduulin asentamiseen. `pip` on komento, joka on ajettava päätelaitteessa, ei Python-tulkista.\n"
+
+msgid "Pip cannot be used in a Python interpreter.\n"
+msgstr "Pipiä ei voi käyttää Python-tulkissa.\n"
+
+msgid ""
+"I am guessing that you are attempting to use Python to run a program.\n"
+"You must do so from a terminal and not from a Python interpreter.\n"
+msgstr "Arvelen, että yrität käyttää Pythonia ohjelman suorittamiseen. Sinun on tehtävä se terminaalista eikä Python-tulkista.\n"
+
+msgid "You cannot have a dot `.` followed by `{bracket}`.\n"
+msgstr "Pistettä `.` ei voi seurata `{bracket}`.\n"
+
+msgid "Perhaps you need to replace the dot by a comma.\n"
+msgstr "Ehkä sinun on korvattava piste pilkulla.\n"
+
+msgid "It looks like you are trying to raise an exception using Python 2 syntax.\n"
+msgstr "Näyttää siltä, että yrität herättää virheen Python 2 -syntaksilla.\n"
+
+msgid "Did you forget a colon `:`?\n"
+msgstr "Unohditko kaksoispisteen `:`?\n"
+
+msgid ""
+"You wrote a `{for_while}` loop but\n"
+"forgot to add a colon `:` at the end\n"
+"\n"
+msgstr "Kirjoitit `{for_while}`-silmukan, mutta unohdit lisätä kaksoispisteen `:` loppuun.\n"
+
+msgid ""
+"You wrote a statement beginning with\n"
+"`{name}` but forgot to add a colon `:` at the end.\n"
+"\n"
+msgstr "Kirjoitit lausekkeen, joka alkaa `{name}`, mutta unohdit lisätä kaksoispisteen `:` loppuun.\n"
+
+msgid "You wrote a semicolon, `;`, where a comma was expected.\n"
+msgstr "Kirjoitit puolipisteen `;`, kun odotettiin pilkkua.\n"
+
+msgid "You wrote semicolons, `;`, where commas were expected.\n"
+msgstr "Kirjoitit puolipisteitä, `;`, kun odotettiin pilkkuja.\n"
+
+msgid "Did you mean to write commas?\n"
+msgstr "Tarkoititko kirjoittaa pilkut?\n"
+
+msgid "You wrote a semicolon, `;`, where a colon was expected.\n"
+msgstr "Kirjoitit puolipisteen `;`, kun odotettiin kaksoispistettä.\n"
+
+msgid "Did you mean to write a colon?\n"
+msgstr "Tarkoititko kirjoittaa kaksoispisteen?\n"
+
+msgid "Did you made a mistake in writing an hexadecimal integer?\n"
+msgstr "Teitkö virheen kirjoittaessasi heksadesimaalisen kokonaisluvun?\n"
+
+msgid ""
+"It looks like you used an invalid character (`{character}`) in an hexadecimal number.\n"
+"\n"
+"Hexadecimal numbers are base 16 integers that use the symbols `0` to `9`\n"
+"to represent values 0 to 9, and the letters `a` to `f` (or `A` to `F`)\n"
+"to represent values 10 to 15.\n"
+"In Python, hexadecimal numbers start with either `0x` or `0X`,\n"
+"followed by the characters used to represent the value of that integer.\n"
+msgstr "Näyttää siltä, että käytit virheellistä merkkiä (`{character}`) heksadesimaaliluvussa. Heksadesimaaliluvut ovat 16-alkuisia kokonaislukuja, joissa käytetään symboleja `0`-9` edustamaan arvoja 0-9 ja kirjaimia `a`-f` (tai `A`-F`) edustamaan arvoja 10-15. Pythonissa heksadesimaaliluvut alkavat joko `0x` tai `0X` -merkillä, jota seuraavat kyseisen kokonaisluvun arvon esittämiseen käytetyt merkit.\n"
+
+msgid "Did you made a mistake in writing an octal integer?\n"
+msgstr "Teitkö virheen kirjoittaessasi oktaalista kokonaislukua?\n"
+
+msgid ""
+"It looks like you used an invalid character (`{character}`) in an octal number.\n"
+"\n"
+"Octal numbers are base 8 integers that only use the symbols `0` to `7`\n"
+"to represent values.\n"
+"In Python, octal numbers start with either `0o` or `0O`,\n"
+"(the digit zero followed by the letter `o`)\n"
+"followed by the characters used to represent the value of that integer.\n"
+msgstr "Näyttää siltä, että olet käyttänyt virheellistä merkkiä (`{character}`) oktaaliluvussa. Oktaaliluvut ovat kokonaislukuja, jotka käyttävät vain symboleja `0` - `7` arvojen esittämiseen. Pythonissa oktaaliluvut alkavat joko `0o` tai `0O` -merkillä (numero nolla, jota seuraa kirjain `o`), jota seuraavat kyseisen kokonaisluvun arvon esittämiseen käytetyt merkit.\n"
+
+msgid "Valid names cannot begin with a number.\n"
+msgstr "Kelvolliset nimet eivät voi alkaa numerolla.\n"
+
+msgid "Did you mean `{number}j`?\n"
+msgstr "Tarkoititko `{number}j`?\n"
+
+msgid ""
+"Perhaps you thought that `i` could be used to represent\n"
+"the square root of `-1`. In Python, the symbol used for this is `j`\n"
+"and the complex part is written as `some_number` immediately\n"
+"followed by `j`, with no spaces in between.\n"
+"Perhaps you meant to write `{number}j`.\n"
+msgstr "Ehkä ajattelit, että `i` voitaisiin käyttää esittämään `-1`:n neliöjuurta. Pythonissa tähän käytetään symbolia `j`, ja kompleksinen osa kirjoitetaan muodossa `jokin_luku` välittömästi `j`:n jälkeen ilman välilyöntejä. Ehkä tarkoitit kirjoittaa `{number}j`.\n"
+
+msgid "Did you mean `{number}{second}0`?\n"
+msgstr "Tarkoititko `{number}{second}0`?\n"
+
+msgid ""
+"Perhaps you meant to write `{number}{second}0` in scientific notation\n"
+"and forgot the numerical value for the exponent.\n"
+msgstr "Ehkä sinun oli tarkoitus kirjoittaa `<{number}{second}0` tieteellisessä merkintätavassa ja unohdit eksponentin lukuarvon.\n"
+
+msgid ""
+"[Note: `{first} * {second}` would also be valid\n"
+"since `{first}` is a complex number.]\n"
+msgstr "[Huomautus: `{first} * {second}` olisi myös kelvollinen, koska `{first}` on kompleksiluku.]]\n"
+
+msgid "Perhaps you forgot a multiplication operator, `{first} * {second}`.\n"
+msgstr "Ehkä unohdit kertolaskuoperaattorin, `{first} * {second}`.\n"
+
+msgid "Your Python version does not support this f-string feature.\n"
+msgstr "Python-versiosi ei tue tätä f-merkkijono-ominaisuutta.\n"
+
+msgid ""
+"You are likely using a 'debug' syntax of f-strings introduced\n"
+"in Python version 3.8. You are using version {version}.\n"
+msgstr "Käytät todennäköisesti f-merkkijonojen \"debug\"-syntaksia, joka otettiin käyttöön Pythonin versiossa 3.8. Käytät versiota {version}.\n"
+
+msgid ""
+"You are likely trying to assign a value within an f-string.\n"
+"This is not allowed.\n"
+msgstr "Yrität todennäköisesti antaa arvon f-merkkijonon sisällä. Tämä ei ole sallittua.\n"
+
+msgid ""
+"The content of your f-string is invalid. Please consult the documentation:\n"
+"https://docs.python.org/3/reference/lexical_analysis.html#f-strings\n"
+msgstr "F-merkkijonon sisältö on virheellinen. Tutustu dokumentaatioon: https://docs.python.org/3/reference/lexical_analysis.html#f-strings\n"
+
+msgid "Python keywords cannot be used as identifiers (variable names).\n"
+msgstr "Python-avainsanoja ei voi käyttää tunnisteina (muuttujien niminä).\n"
+
+msgid ""
+"`lambda` does not allow parentheses around its arguments.\n"
+"This was allowed in Python 2 but it not allowed in Python 3.\n"
+msgstr "`lambda` ei salli sulkuja argumenttiensa ympärillä. Tämä oli sallittua Python 2:ssa, mutta ei enää Python 3:ssa.\n"
+
+msgid ""
+"You cannot have explicit tuples as arguments.\n"
+"Assign any tuple to a parameter and unpack it\n"
+"within the body of the function.\n"
+msgstr "Argumentteina ei voi olla eksplisiittisiä tupleja. Määritä mikä tahansa tuple parametriksi ja purkaa se funktion rungossa.\n"
+
+msgid "If you remove `{type_decl}`, you will have a valid Python statement.\n"
+msgstr "Jos poistat `{type_decl}`, saat kelvollisen Python-lauseen.\n"
+
+msgid ""
+"However, even if you remove `{type_decl}`, there would still be some\n"
+"some syntax errors.\n"
+msgstr "Vaikka poistaisit `{type_decl}`, syntaksivirheitä olisi silti joitakin.\n"
+
+msgid "You do not need to declare variables in Python.\n"
+msgstr "Muuttujia ei tarvitse ilmoittaa Pythonissa.\n"
+
+msgid ""
+"It looks like you were trying to declare that `{var}` was\n"
+"a variable using the word `{type_decl}`.\n"
+msgstr "Näyttää siltä, että yritit ilmoittaa, että `{var}` on muuttuja käyttäen sanaa `{type_decl}`.\n"
+
+msgid ""
+"I am guessing that you forgot a comma between two strings\n"
+"when defining a dict.\n"
+"\n"
+msgstr "Oletan, että unohdit pilkun kahden merkkijonon väliin, kun määrittelit diktiä.\n"
+
+msgid "Did you forget to write `in`?\n"
+msgstr "Unohditko kirjoittaa \"in\"?\n"
+
+msgid ""
+"It looks as though you forgot to use the keyword `in`\n"
+"as part of a `for` statement. Perhaps you meant:\n"
+"\n"
+"    {new_statement}\n"
+"\n"
+msgstr "Näyttää siltä, että unohdit käyttää avainsanaa `in` osana `for`-lauseen osana. Ehkä tarkoitit: {new_statement}\n"
+
+msgid "Did you forget to write parenthesis?\n"
+msgstr "Unohditko kirjoittaa sulkeet?\n"
+
+msgid ""
+"It looks as though you forgot to use to use parenthesis with `range`.\n"
+"Perhaps you meant:\n"
+"\n"
+"    {new_statement}\n"
+"\n"
+msgstr "Näyttää siltä, että olet unohtanut käyttää sulkuja `range`:n kanssa. Ehkä tarkoitit: {new_statement}.\n"
+
+msgid ""
+"Perhaps you meant to write `{keyword}` and made a typo.\n"
+"The correct line might be `{line}`\n"
+msgstr "Ehkä sinun piti kirjoittaa `{keyword}` ja teit kirjoitusvirheen. Oikea rivi voisi olla `{line}`.\n"
+
+msgid ""
+"I am guessing that you were writing a comprehension or a generator expression\n"
+"and use the wrong order for a condition.\n"
+"The correct order depends if there is an `else` clause or not.\n"
+"For example, the correct order for a list comprehensions with\n"
+"condition can be either\n"
+"\n"
+"    [f(x) if condition else other for x in sequence]  # 'if' before 'for'\n"
+"\n"
+"or, if there is no `else`\n"
+"\n"
+"    [f(x) for x in sequence if condition]  # 'if' after 'for'\n"
+"\n"
+msgstr "Arvelen, että kirjoitit ymmärrystä tai generaattorilauseketta ja käytit väärää järjestystä ehdolle. Oikea järjestys riippuu siitä, onko `else`-lauseketta vai ei. Esimerkiksi oikea järjestys listan ymmärrystä varten, jossa on ehto, voi olla joko [f(x) if condition else other for x in sequence] # 'if' ennen 'for'-lauseketta, tai jos `else`-lauseketta ei ole [f(x) for x in sequence if condition] # 'if' for'-lausekkeen jälkeen.\n"
+
+msgid ""
+"You cannot have spaces in identifiers (variable names).\n"
+"Perhaps you meant `{name}`?\n"
+msgstr "Tunnisteissa (muuttujien nimissä) ei voi olla välilyöntejä. Ehkä tarkoitit `{name}`?\n"
+
+msgid "`bf` is an illegal string prefix.\n"
+msgstr "`bf` on laiton merkkijonon etuliite.\n"
+
+msgid ""
+"I am guessing that you wanted a binary f-string;\n"
+"this is not allowed.\n"
+msgstr "Oletan, että halusit binäärisen f-merkkijonon; tämä ei ole sallittua.\n"
+
+msgid ""
+"It is possible that you forgot a comma between items in a tuple, \n"
+"or between function arguments, \n"
+"at the position indicated by ^.\n"
+msgstr "On mahdollista, että olet unohtanut pilkun tuplen kohtien tai funktion argumenttien väliin ^:llä osoitetussa kohdassa.\n"
+
+msgid ""
+"It is possible that you forgot a comma between items in a list\n"
+"at the position indicated by ^.\n"
+msgstr "On mahdollista, että olet unohtanut pilkun luettelon kohtien väliin ^-kirjaimella osoitetussa kohdassa.\n"
+
+msgid ""
+"It is possible that you forgot a comma between items in a set or dict\n"
+"at the position indicated by ^.\n"
+msgstr "On mahdollista, että olet unohtanut pilkun joukon tai diktion kohtien väliin ^:llä merkittyyn kohtaan.\n"
+
+msgid "Python indicates that the error is caused by `{second}` written immediately after `{first}`.\n"
+msgstr "Python osoittaa, että virhe johtuu siitä, että `{second}` on kirjoitettu heti `{first}` jälkeen.\n"
+
+msgid "Perhaps you meant{line}"
+msgstr "Ehkä tarkoitit{line}"
+
+msgid "Did you forget something between `{first}` and `{second}`?\n"
+msgstr "Unohditko jotain `{first}` ja `{second}` välistä?\n"
+
+msgid ""
+"Perhaps you meant to insert an operator like `{operators}`\n"
+"between `{first}` and `{second}`.\n"
+"The following lines of code would not cause any `SyntaxError`:\n"
+"\n"
+msgstr "Ehkä tarkoitit lisätä operaattorin `{operators}` tyyppisen operaattorin `{first}` ja `{second}` väliin. Seuraavat koodirivit eivät aiheuta mitään `SyntaxError`-virhettä:\n"
+
+msgid ""
+"Note: these are just some of the possible choices and that\n"
+"some of them might raise other types of exceptions.\n"
+msgstr "Huomaa: nämä ovat vain osa mahdollisista vaihtoehdoista, ja jotkin niistä saattavat aiheuttaa muunlaisia virheitä.\n"
+
+msgid "There is an additional possibility.\n"
+msgstr "On vielä yksi mahdollisuus.\n"
+
+msgid ""
+"It is possible that you used an equal sign `=` instead of a colon `:`\n"
+"to assign values to keys in a dict\n"
+"before or at the position indicated by ^.\n"
+msgstr "On mahdollista, että olet käyttänyt yhtäläisyysmerkkiä `=` kaksoispisteen `:` sijasta antaaksesi arvoja dictin avaimille ennen ^:n osoittamaa kohtaa tai sen kohdalla.\n"
+
+msgid ""
+"The Python keyword `{boolean}` can only be used for boolean expressions.\n"
+"Perhaps you meant to write\n"
+"\n"
+"`{new_statement}`\n"
+msgstr "Pythonin avainsanaa `{boolean}` voidaan käyttää vain boolean-lausekkeissa. Ehkä tarkoitit kirjoittaa `{new_statement}`.\n"
+
+msgid ""
+"I am guessing that you are trying to import at least one object\n"
+"from module `{module}` and rename it using the Python keyword `as`;\n"
+"this keyword can only be used to rename one object at a time\n"
+"using a well defined syntax.\n"
+"I suggest that you split up any such import statement with each object\n"
+"renamed on a separate line as follows:\n"
+"\n"
+"    from {module} import object_1 as name_1\n"
+"    from {module} import object_2 as name_2  # if needed\n"
+msgstr "Arvelen, että yrität tuoda ainakin yhden objektin moduulista `{module}` ja nimetä sen uudelleen Pythonin avainsanalla `as`; tätä avainsanaa voidaan käyttää vain yhden objektin uudelleen nimeämiseen kerrallaan käyttäen tarkoin määriteltyä syntaksia. Ehdotan, että jaat tällaisen tuontilausekkeen, jossa jokainen uudelleen nimetty objekti on erillisellä rivillä, seuraavasti: from {module} import object_1 as name_1 from {module} import object_2 as name_2 # jos tarpeen.\n"
+
+msgid ""
+"I am guessing that you wrote {bad_token} twice in a row by mistake.\n"
+"If that is the case, you need to remove the second one.\n"
+msgstr "Oletan, että kirjoitit {bad_token} vahingossa kaksi kertaa peräkkäin. Jos näin on, sinun on poistettava toinen.\n"
+
+msgid "Did you write {bad_token} twice by mistake?\n"
+msgstr "Kirjoititko vahingossa {bad_token} kahdesti?\n"
+
+msgid ""
+"I am guessing that you wrote {bad_token} by mistake.\n"
+"Removing it and writing `{line}` seems to fix the error.\n"
+msgstr "Oletan, että kirjoitit {bad_token} vahingossa. Sen poistaminen ja kirjoittaminen `{line}` näyttää korjaavan virheen.\n"
+
+msgid "Did you write {bad_token} by mistake?\n"
+msgstr "Kirjoititko {bad_token} vahingossa?\n"
+
+msgid ""
+"It looks like the error occurred as you were writing a Python dict.\n"
+"Perhaps wrote a dict key without writing the corresponding value.\n"
+msgstr "Näyttää siltä, että virhe tapahtui, kun kirjoitit Python dict:tä. Ehkä kirjoitit dict-avaimen kirjoittamatta vastaavaa arvoa.\n"
+
+msgid ""
+"The `else` keyword does not begin a code block that matches\n"
+"a valid code block, possibly because `else` is not indented correctly.\n"
+msgstr "Avainsana `else` ei aloita koodilohkoa, joka vastaa kelvollista koodilohkoa, mahdollisesti siksi, että `else` ei ole oikein sisennetty.\n"
+
+msgid ""
+"The `elif` keyword does not begin a code block that matches\n"
+"an `if` block, possibly because `elif` is not indented correctly.\n"
+msgstr "Avainsana `elif` ei aloita koodilohkoa, joka vastaa `if`-lohkoa, mahdollisesti siksi, että `elif` ei ole oikein sisennetty.\n"
+
+msgid ""
+"The `except` keyword does not begin a code block that matches\n"
+"a `try` block, possibly because `except` is not indented correctly.\n"
+msgstr "Avainsana `except` ei aloita koodilohkoa, joka vastaa `try`-lohkoa, mahdollisesti siksi, että `except` ei ole oikein sisennetty.\n"
+
+msgid ""
+"The `finally` keyword does not begin a code block that matches\n"
+"a `try` block, possibly because `finally` is not indented correctly.\n"
+msgstr "Avainsana `finally` ei aloita koodilohkoa, joka vastaa `try`-lohkoa, mahdollisesti siksi, että `finally` ei ole oikein sisennetty.\n"
+
+msgid "You used square brackets, `[...]` instead of parentheses.\n"
+msgstr "Käytit hakasulkeita, `[...]`, sulkeiden sijasta.\n"
+
+msgid ""
+"Write the following instead:\n"
+"\n"
+"{new_statement}"
+msgstr "Kirjoita sen sijaan seuraava: {new_statement}"
+
+msgid "The opening {bracket} on line {linenumber} is not closed.\n"
+msgstr "Rivin {linenumber} aukeava {bracket} ei ole suljettu.\n"
+
+msgid "If this is incorrect, please report this case.\n"
+msgstr "Jos tämä ei pidä paikkaansa, ilmoita tästä tapauksesta.\n"
+
+msgid ""
+"Perhaps you wrote a statement beginning a code block\n"
+"intended to be part of a generator expression.\n"
+"You cannot have separate code blocks inside generator expressions.\n"
+msgstr "Ehkä kirjoitit lausekkeen, joka aloittaa koodilohkon, joka on tarkoitettu osaksi generaattorilauseketta. Generaattorilausekkeiden sisällä ei voi olla erillisiä koodilohkoja.\n"
+
+msgid ""
+"Perhaps you wrote a statement beginning a code block\n"
+"intended to be part of a list comprehension.\n"
+"You cannot have separate code blocks inside list comprehensions.\n"
+msgstr "Ehkä kirjoitit lausekkeen, joka aloittaa koodilohkon, jonka on tarkoitus olla osa listan ymmärtämistä. Listojen ymmärtämisen sisällä ei voi olla erillisiä koodilohkoja.\n"
+
+msgid ""
+"Perhaps you wrote a statement beginning a code block\n"
+"intended to be part of a dict or set comprehension.\n"
+"You cannot have separate code blocks inside dict or set comprehensions.\n"
+msgstr "Ehkä kirjoitit lausekkeen, joka aloittaa koodilohkon, joka on tarkoitettu osaksi dict- tai set-käsittelyä. dict- tai set-käsittelyjen sisällä ei voi olla erillisiä koodilohkoja.\n"
+
+msgid "If this explanation is incorrect, please report this case.\n"
+msgstr "Jos tämä selitys on virheellinen, ilmoita tästä tapauksesta.\n"
+
+msgid "parenthesis `(`"
+msgstr "kaarisulje `(`"
+
+msgid "parenthesis `)`"
+msgstr "kaarisulje `)`"
+
+msgid "square bracket `[`"
+msgstr "hakasulje `[`"
+
+msgid "square bracket `]`"
+msgstr "hakasulje `]`"
+
+msgid "curly bracket `{`"
+msgstr "aaltosulje `{`"
+
+msgid "curly bracket `}`"
+msgstr "aaltosulje `}`"
+
+msgid "Did you mean to use a normal quote character, `'` or `\"`?\n"
+msgstr "Tarkoititko käyttää normaalia lainausmerkkiä, `'` tai `\"`?\n"
+
+msgid ""
+"I suspect that you used a fancy unicode quotation mark\n"
+"whose name is {name}\n"
+"instead of a normal single or double quote for a string.\n"
+msgstr "Epäilen, että olet käyttänyt hienoa unicode-lainausta, jonka nimi on {name}, tavallisen yksinkertaisen tai kaksinkertaisen lainausmerkin sijasta merkkijonossa.\n"
+
+msgid "Or perhaps, you meant to write a less than sign, `<`.\n"
+msgstr "Tai ehkä sinun piti kirjoittaa pienempi kuin -merkki, `<`.\n"
+
+msgid "Or perhaps, you meant to write a greater than sign, `>`.\n"
+msgstr "Tai ehkä sinun piti kirjoittaa suurempi kuin -merkki, `>`.\n"
+
+msgid "Or perhaps, you meant to write a comma.\n"
+msgstr "Tai ehkä sinun piti kirjoittaa pilkku.\n"
+
+msgid ""
+"I suspect that you used a fancy unicode quotation mark\n"
+"whose name is {name}.\n"
+"\n"
+msgstr "Epäilen, että olet käyttänyt hienoa unicode-lainausta, jonka nimi on {name}.\n"
+
+msgid "Perhaps, you meant to write a less than sign, `<`.\n"
+msgstr "Ehkä sinun piti kirjoittaa pienempi kuin -merkki, `<`.\n"
+
+msgid "Did you mean to write a less than sign, `<`?\n"
+msgstr "Tarkoititko kirjoittaa pienemmän kuin -merkin, `<`?\n"
+
+msgid "Perhaps, you meant to write a greater than sign, `>`.\n"
+msgstr "Ehkä sinun piti kirjoittaa suurempi kuin -merkki, `>`.\n"
+
+msgid "Did you mean to write a greater than sign, `>`?\n"
+msgstr "Tarkoititko kirjoittaa suuremman kuin -merkin, `>`?\n"
+
+msgid "Perhaps, you meant to write a comma.\n"
+msgstr "Ehkä sinun piti kirjoittaa pilkku.\n"
+
+msgid ""
+"I suspect that you used the unicode character known as\n"
+"'FRACTION SLASH', which looks similar to\n"
+"but is different from the division operator `/`.\n"
+msgstr "Epäilen, että olet käyttänyt unicode-merkkiä, joka tunnetaan nimellä \"FRACTION SLASH\", joka näyttää samankaltaiselta kuin jako-operaattori `/`, mutta on eri.\n"
+
+msgid "Did you use a unicode fraction?\n"
+msgstr "Käytitkö unicode-fraktiota?\n"
+
+msgid ""
+"I suspect that you used the unicode character `{char}`meant to represent a fraction.\n"
+"The name of this unicode character is {name}.\n"
+msgstr "Epäilen, että olet käyttänyt unicode-merkkiä `{char}`, jonka tarkoitus on esittää murtolukua. Tämän unikoodimerkin nimi on {name}.\n"
+
+msgid "Did you mean `{num}/{denom}`?\n"
+msgstr "Tarkoititko `{num}/{denom}`?\n"
+
+msgid ""
+"You used the unicode character {char} which is known as\n"
+"{name}\n"
+"I suspect that you meant to write the fraction `{num}/{denom}` instead.\n"
+msgstr "Käytit unicode-merkkiä {char}, joka tunnetaan nimellä {name} Epäilen, että tarkoituksesi oli kirjoittaa sen sijaan murto `{num}/{denom}`.\n"
+
+msgid ""
+"You have {container_type} followed by square brackets, `[...]`.\n"
+"What is included between the square brackets, `[...]`,\n"
+"must be either an integer or a slice\n"
+"(`start:stop` or `start:stop:step`) \n"
+"and you have used {obj_type} instead.\n"
+msgstr "Sinulla on {container_type}, jota seuraa hakasulkeissa `[...]`. Hakasulkeiden välissä olevan `[...]` on oltava joko kokonaisluku tai viipale (`start:stop` tai `start:stop:step`), ja olet käyttänyt {obj_type} sen sijaan.\n"
