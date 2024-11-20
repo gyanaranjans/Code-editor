@@ -1,4 +1,4 @@
-# ohjelmoi.fi
+# Python editor
 
 Python playground in the browser, with Friendly Tracebacks (translated to Finnish).
 
