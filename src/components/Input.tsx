@@ -12,7 +12,7 @@ function Input({ codeRunner }: { codeRunner: CodeRunner | null }) {
 
   useInit(() => {
     BackendManager.subscribe(BackendEventType.Input, (event) => {
-      setPrompt(event.data);
+      setPrompt(event.data ?? ''); // Ensure prompt is an empty string if null
     });
     BackendManager.subscribe(BackendEventType.End, () => {
       setPrompt('');
@@ -20,7 +20,6 @@ function Input({ codeRunner }: { codeRunner: CodeRunner | null }) {
   });
 
   useEffect(() => {
-    if (prompt === '') return;
     ref.current?.focus();
   }, [prompt]);
 
@@ -28,12 +27,11 @@ function Input({ codeRunner }: { codeRunner: CodeRunner | null }) {
     <TextInput
       label="Input"
       value={value}
-      disabled={prompt === ''}
       placeholder={prompt || 'The program is not asking for input right now'}
       onChange={(e) => setValue(e.currentTarget.value)}
       ref={ref as any}
       onKeyDown={(e) => {
-        if (e.key === 'Enter' && prompt !== '') {
+        if (e.key === 'Enter') {
           codeRunner?.submitInput(value);
           setValue('');
           setPrompt('');
