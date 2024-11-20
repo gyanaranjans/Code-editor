@@ -1,11 +1,11 @@
 const examples = {
   Fibonacci:
-`def fibonacci(n):
+    `def fibonacci(n):
   return n if n <= 1 else fibonacci(n- 2) + fibonacci(n - 1)
 
 print([fibonacci(n) for n in range(10)])`,
   Matplotlib:
-`import matplotlib.pyplot as plt
+    `import matplotlib.pyplot as plt
 import numpy as np
 
 data = {'a': np.arange(50),
@@ -20,7 +20,7 @@ plt.ylabel('entry b')
 
 plt.show()`,
   Turtle:
-`import turtle 
+    `import turtle 
 
 polygon = turtle.Turtle()
 
@@ -34,12 +34,8 @@ for i in range(num_sides):
     
 turtle.done()`,
   Sleep:
-`import time
-text = """Entten tentten teelikamentten
-hissun kissun vaapula vissun
-eelin keelin klot
-viipula vaapula vot
-Puh pah pelistä pois!"""
+    `import time
+text = """hello this program will print each character with a delay of 0.1 seconds"""
 for character in text:
     print(character, end="")
     time.sleep(0.1)`,

@@ -186,17 +186,7 @@ function App() {
       })}
     >
       <div style={{ position: 'relative' }}>
-        <LoadingOverlay
-          visible={runState === RunState.Loading || !codeRunner?.completionSource}
-          overlayBlur={2}
-          transitionDuration={300}
-          loader={(
-            <>
-              <Center mb={20}><Loader /></Center>
-              <Text align="center" weight={700}>Loading Python worker</Text>
-            </>
-          )}
-        />
+
         <Grid>
           <Grid.Col span={6}>
             <CodeEditor codeRunner={codeRunner} runState={runState} message={message} />

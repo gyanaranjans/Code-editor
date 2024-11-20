@@ -144,7 +144,7 @@ function CodeEditor({
             {codeRunner?.state === RunState.Ready ? 'Run' : 'Stop'}
           </Button>
           <Select
-            placeholder="Esimerkit"
+            placeholder="select snippet"
             data={Object.keys(examples).map((i) => ({ value: i, label: i }))}
             onChange={(value) => (value == null ? null : setCode((examples as any)[value]))}
           />
