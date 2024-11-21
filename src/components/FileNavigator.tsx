@@ -36,7 +36,7 @@ export default function FileNavigator() {
           <line x1="5" y1="12" x2="19" y2="12" />
         </svg>
         {' '}
-        <span style={{ fontWeight: 400, fontSize: '1rem' }}>Luo uusi</span>
+        <span style={{ fontWeight: 400, fontSize: '1rem' }}>Create New</span>
       </Button>
       <Stack spacing="lg" align="stretch" justify="flex-start" mt="md">
         {files.map((f: File, index: number) => (

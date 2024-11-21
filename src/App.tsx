@@ -188,11 +188,11 @@ function App() {
       <div style={{ position: 'relative' }}>
 
         <Grid>
-          <Grid.Col span={6}>
+          <Grid.Col span={6} md={12}>
             <CodeEditor codeRunner={codeRunner} runState={runState} message={message} />
             <Input codeRunner={codeRunner} />
           </Grid.Col>
-          <Grid.Col span={6}>
+          <Grid.Col span={6} md={12}>
             <Output codeRunner={codeRunner} />
           </Grid.Col>
         </Grid>

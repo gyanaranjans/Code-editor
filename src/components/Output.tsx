@@ -170,11 +170,11 @@ function Output({ codeRunner }: { codeRunner: CodeRunner | null }) {
       })}
       {codeRunner?.overflown && (
         <Text color="red">
-          Tulos katkaistu
+          Output truncated
           {codeRunner.overflownAction && (
           <>
             <br />
-            <Button onClick={codeRunner.overflownAction}>Lataa tuloste</Button>
+            <Button onClick={codeRunner.overflownAction}>Download output</Button>
           </>
           )}
         </Text>

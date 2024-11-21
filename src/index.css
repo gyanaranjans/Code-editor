@@ -1,3 +1,14 @@
 #root {
   min-height: 100vh;
 }
+
+@media (max-width: 768px) {
+  .mantine-Grid-root {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mantine-Grid-col {
+    width: 100%;
+  }
+}
