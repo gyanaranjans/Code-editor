@@ -22,9 +22,6 @@ def create_package(package_name, dependencies, extra_deps):
     try:
         dest_dir = os.path.join(package_name, extra_deps)
         shutil.rmtree(dest_dir, ignore_errors=True)
-        lang_src = os.path.join(os.getcwd(), "fi")
-        lang_dest = os.path.join(package_name, "friendly_traceback/locales/fi/LC_MESSAGES")
-        shutil.copytree(lang_src, lang_dest)
         shutil.copytree(extra_deps, dest_dir)
     except Exception as e:
         # Always seems to result in a harmless permission denied error
@@ -47,5 +44,5 @@ def check_tar(tarname, out_dir="."):
 
 
 if __name__ == "__main__":
-    create_package("python_package", "python-runner friendly_traceback jedi pylint ./modules/turtle", extra_deps="papyros")
+    create_package("python_package", "python-runner friendly_traceback jedi tomli pylint typing-extensions json-tracer ./modules/turtle", extra_deps="papyros")
     #check_tar("python_package.tar.gz.load_by_url", out_dir="test")

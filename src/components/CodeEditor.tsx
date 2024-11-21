@@ -115,7 +115,7 @@ function CodeEditor({
             ...lintKeymap,
             indentWithTab,
           ]),
-          linter(codeRunner.lintSource),
+
           autocompletion({ override: [codeRunner.completionSource] }),
         ]}
         onChange={(v) => setCode(v)}
